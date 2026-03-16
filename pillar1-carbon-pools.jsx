@@ -1130,7 +1130,7 @@ export default function CarbonPools() {
             <span style={{ color: "#6a9d2a" }}>Our Feet</span>
           </h1>
           <p style={{ color: "rgba(255,255,255,0.9)", fontSize: 15.5, lineHeight: 1.75, marginTop: 20, maxWidth: 540 }}>
-            Soil stores <strong style={{ color: "#dce7cb" }}>3x more carbon</strong> than the atmosphere. Industrial farming has stripped 116 billion tons. A living underground network - invisible to most - holds the key to reversing climate change.
+            Soil stores <strong style={{ color: "#dce7cb" }}>~3x more carbon</strong> than the atmosphere. Industrial farming has stripped 116 billion tons. A living underground network - invisible to most - holds the key to reversing climate change.
           </p>
 
           {/* Key stat row */}

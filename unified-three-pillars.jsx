@@ -354,7 +354,7 @@ function SOMSlider() {
   const waterGal = som * 20000;
   const carbonTons = som * 5.8; // Van Bemmelen factor: SOC ≈ 58% of SOM weight
   const economicsValue = som >= 3 ? "+78%" : som >= 2 ? "+30%" : "+5%";
-  const infiltrationRate = 100 + (som - 1) * 45;
+  const infiltrationRate = 100 + (som - 1) * 35; // Basche & DeLonge 2019 meta-analysis: cover crops +34.8% infiltration
   const microbialBiomass = 100 + (som - 1) * 30;
   const summaryStats = [
     { label: "Water", value: `${(waterGal / 1000).toFixed(0)}K`, sub: "held per acre", borderColor: "#5a8c1e" },
@@ -889,7 +889,7 @@ function CrisisBubbleGrid() {
 const SOLUTION = [
   { icon: "/icons/evidence-carbon-sequestered.webp", stat: "0.3-1.0", unit: "Mg C/ha/yr", label: "Carbon sequestered by regenerative practices", color: C.green, iconScale: 1.04 },
   { icon: "/icons/evidence-higher-profits.webp",     stat: "+78%",    label: "Higher profits on regen farms (LaCanne & Lundgren)",   color: C.green, iconScale: 1.18 },
-  { icon: "/icons/evidence-water-infiltration.webp", stat: "+59%",    label: "Water infiltration improvement from cover crops",      color: C.green, iconScale: 1.15 },
+  { icon: "/icons/evidence-water-infiltration.webp", stat: "+35%",    label: "Water infiltration improvement from cover crops",      color: C.green, iconScale: 1.15 },
   { icon: "/icons/evidence-carbon-moved.webp",       stat: "13.12 Gt", unit: "CO2e/yr", label: "Carbon moved by mycorrhizal fungi networks", color: C.green, iconScale: 1.08 },
 ];
 
@@ -1141,7 +1141,7 @@ export default function UnifiedViz() {
                 {
                   num: "03", title: "Water Security",
                   desc: "20,000 gallons held per acre per 1% SOM gain. 71% of aquifers declining. California's Central Valley faces permanent loss of 500K-1M acres.",
-                  stats: ["87% CA water loss by 2043", "2M ac-ft/yr overdraft", "+59% infiltration (cover crops)"],
+                  stats: ["87% CA water loss by 2043", "2M ac-ft/yr overdraft", "+35% infiltration (cover crops)"],
                   color: C.greenBright,
                 },
               ].map((p, i) => (
