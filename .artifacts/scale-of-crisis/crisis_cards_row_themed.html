@@ -1,0 +1,250 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+.row{display:flex;gap:14px;font-family:'Inter',sans-serif;flex-wrap:wrap;justify-content:center;}
+.card-wrap{width:160px;height:180px;}
+.card-wrap svg{width:100%;height:100%;display:block;}
+</style>
+<div class="row">
+
+<div class="card-wrap">
+<svg viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="soilG" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#f5f4ee"/>
+<stop offset="52%" stop-color="#f5f4ee"/>
+<stop offset="53%" stop-color="#c4a57a"/>
+<stop offset="70%" stop-color="#9a7a55"/>
+<stop offset="85%" stop-color="#7a5a38"/>
+<stop offset="100%" stop-color="#5a3d20"/>
+</linearGradient>
+<clipPath id="c1"><rect width="160" height="180" rx="10"/></clipPath>
+</defs>
+<g clip-path="url(#c1)">
+<rect width="160" height="180" fill="url(#soilG)"/>
+<!-- Soil surface undulation -->
+<path d="M0 96 Q20 88 40 93 Q60 100 80 90 Q105 82 130 90 Q148 95 160 88 L160 100 Q130 95 105 100 Q80 108 60 100 Q40 96 20 100 L0 100Z" fill="#c4a57a" opacity="0.5"/>
+<!-- Carbon particles rising -->
+<circle cx="40" cy="90" r="2.5" fill="#6b4a2a" opacity="0">
+<animate attributeName="cy" values="90;30;30" dur="3.2s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.45;0" dur="3.2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="80" cy="85" r="2" fill="#6b4a2a" opacity="0">
+<animate attributeName="cy" values="85;25;25" dur="3.8s" begin="0.7s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.35;0" dur="3.8s" begin="0.7s" repeatCount="indefinite"/>
+</circle>
+<circle cx="120" cy="88" r="1.8" fill="#6b4a2a" opacity="0">
+<animate attributeName="cy" values="88;28;28" dur="3s" begin="1.4s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.4;0" dur="3s" begin="1.4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="55" cy="92" r="1.5" fill="#6b4a2a" opacity="0">
+<animate attributeName="cy" values="92;35;35" dur="4s" begin="2s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.3;0" dur="4s" begin="2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="105" cy="86" r="2.2" fill="#6b4a2a" opacity="0">
+<animate attributeName="cy" values="86;22;22" dur="3.5s" begin="0.3s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.38;0" dur="3.5s" begin="0.3s" repeatCount="indefinite"/>
+</circle>
+<!-- Subtle soil texture lines -->
+<line x1="30" y1="110" x2="35" y2="145" stroke="#5a3d20" stroke-width="0.4" opacity="0.2"/>
+<line x1="90" y1="105" x2="88" y2="140" stroke="#5a3d20" stroke-width="0.4" opacity="0.15"/>
+<line x1="130" y1="108" x2="132" y2="150" stroke="#5a3d20" stroke-width="0.4" opacity="0.18"/>
+<ellipse cx="50" cy="150" rx="12" ry="5" fill="#4a3018" opacity="0.12"/>
+<ellipse cx="115" cy="160" rx="15" ry="4" fill="#4a3018" opacity="0.1"/>
+</g>
+<!-- Top labels -->
+<text font-family="Bebas Neue,sans-serif" font-size="9" letter-spacing="1.5" fill="#8B5E3C" x="10" y="18">CARBON</text>
+<rect x="60" y="9" width="88" height="14" rx="3" fill="rgba(192,57,43,0.08)" stroke="rgba(192,57,43,0.12)" stroke-width="0.5"/>
+<text font-family="Bebas Neue,sans-serif" font-size="7.5" letter-spacing="1.2" fill="#c0392b" x="66" y="19">HISTORIC DEPLETION</text>
+<!-- Big number in the soil -->
+<text font-family="Bebas Neue,sans-serif" font-size="44" fill="#f5f4ee" x="14" y="138" opacity="0.95">133</text>
+<text font-family="Bebas Neue,sans-serif" font-size="16" fill="#f5f4ee" x="118" y="138" opacity="0.65">GT C</text>
+<!-- Descriptors -->
+<text font-family="Inter,sans-serif" font-size="8.5" font-weight="500" fill="#f5f4ee" x="14" y="156" opacity="0.7">Global soil carbon lost</text>
+<text font-family="Inter,sans-serif" font-size="7" fill="#f5f4ee" x="14" y="168" opacity="0.45">since farming began</text>
+<!-- Top red accent line -->
+<rect x="0" y="0" width="160" height="3" rx="0" fill="#c0392b" opacity="0.8"/>
+</svg>
+</div>
+
+<div class="card-wrap">
+<svg viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="dryG" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#ddd0be"/>
+<stop offset="50%" stop-color="#c4a57a"/>
+<stop offset="100%" stop-color="#a08060"/>
+</linearGradient>
+<clipPath id="c2"><rect width="160" height="180" rx="10"/></clipPath>
+</defs>
+<g clip-path="url(#c2)">
+<rect width="160" height="180" fill="url(#dryG)"/>
+<!-- Crack network -->
+<g stroke="#8B5E3C" fill="none" opacity="0.3" stroke-width="1" stroke-linecap="round">
+<path d="M45 0 L43 20 Q40 35 35 50 L30 70 Q27 85 28 100"/>
+<path d="M43 20 L55 32 Q62 42 60 52"/>
+<path d="M35 50 L22 62 Q18 72 20 85"/>
+<path d="M120 0 L122 18 Q124 32 128 45 L132 65"/>
+<path d="M122 18 L110 30 Q105 42 107 52"/>
+<path d="M80 180 L78 160 Q75 142 72 130 L68 115"/>
+<path d="M78 160 L90 148 Q96 138 94 125"/>
+<path d="M0 110 L18 108 Q32 106 42 110"/>
+<path d="M160 85 L142 87 Q130 90 122 85"/>
+<path d="M25 180 L28 162 Q32 148 30 135"/>
+<path d="M140 180 L136 160 Q133 145 135 130"/>
+</g>
+<g stroke="#8B5E3C" fill="none" opacity="0.15" stroke-width="0.5">
+<path d="M70 0 Q68 15 72 30"/>
+<path d="M0 60 Q15 58 28 62"/>
+<path d="M160 140 Q145 138 135 142"/>
+<path d="M105 180 Q107 165 103 150"/>
+</g>
+</g>
+<!-- Top labels -->
+<text font-family="Bebas Neue,sans-serif" font-size="9" letter-spacing="1.5" fill="#5a3d20" x="10" y="18" opacity="0.7">ECONOMICS</text>
+<rect x="82" y="9" width="68" height="14" rx="3" fill="rgba(192,57,43,0.08)" stroke="rgba(192,57,43,0.12)" stroke-width="0.5"/>
+<text font-family="Bebas Neue,sans-serif" font-size="7.5" letter-spacing="1.2" fill="#c0392b" x="88" y="19">ANNUAL DRAG</text>
+<!-- Big number -->
+<text font-family="Bebas Neue,sans-serif" font-size="48" fill="#5a3d20" x="80" y="100" text-anchor="middle" opacity="0.85">$1T+</text>
+<text font-family="Bebas Neue,sans-serif" font-size="18" fill="#5a3d20" x="80" y="118" text-anchor="middle" opacity="0.5">/YR</text>
+<!-- Descriptors -->
+<text font-family="Inter,sans-serif" font-size="8.5" font-weight="500" fill="#5a3d20" x="14" y="156" opacity="0.6">US soil degradation cost</text>
+<text font-family="Inter,sans-serif" font-size="7" fill="#5a3d20" x="14" y="168" opacity="0.4">annual economic drag</text>
+<rect x="0" y="0" width="160" height="3" rx="0" fill="#c0392b" opacity="0.8"/>
+</svg>
+</div>
+
+<div class="card-wrap">
+<svg viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="wBg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#f5f4ee"/>
+<stop offset="100%" stop-color="#e8e4d8"/>
+</linearGradient>
+<linearGradient id="wG" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#6aabcf" stop-opacity="0.6"/>
+<stop offset="100%" stop-color="#2d6e94" stop-opacity="0.8"/>
+</linearGradient>
+<linearGradient id="wG2" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#4a8fb5" stop-opacity="0.4"/>
+<stop offset="100%" stop-color="#2d6e94" stop-opacity="0.6"/>
+</linearGradient>
+<clipPath id="c3"><rect width="160" height="180" rx="10"/></clipPath>
+</defs>
+<g clip-path="url(#c3)">
+<rect width="160" height="180" fill="url(#wBg)"/>
+<!-- Aquifer container (right side) -->
+<path d="M100 32 L148 32 Q154 32 154 38 L154 82 Q154 88 148 88 L135 88 Q130 88 128 92 L122 105 Q118 112 112 115" fill="none" stroke="#8B5E3C" stroke-width="1.5" opacity="0.25"/>
+<path d="M100 32 L100 48" fill="none" stroke="#8B5E3C" stroke-width="1.5" opacity="0.25"/>
+<!-- Low water in container -->
+<path d="M101 68 Q115 65 130 68 Q140 70 153 68 L153 87 Q148 87 135 87 L135 87 Q130 87 128 90 L101 68Z" fill="url(#wG)" opacity="0.35"/>
+<!-- Spilling water stream -->
+<path d="M100 48 Q96 65 92 80 Q86 100 82 118 Q78 135 76 152 Q74 168 72 185" fill="none" stroke="url(#wG2)" stroke-width="14" stroke-linecap="round" opacity="0.4"/>
+<path d="M100 48 Q95 68 90 85 Q84 105 80 125 Q76 142 74 160 Q72 175 70 190" fill="none" stroke="url(#wG2)" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+<!-- Drips -->
+<circle cx="98" cy="50" r="2" fill="#4a8fb5" opacity="0">
+<animate attributeName="cy" values="50;105;105" dur="1.8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.55;0" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="92" cy="80" r="1.6" fill="#4a8fb5" opacity="0">
+<animate attributeName="cy" values="80;140;140" dur="2.2s" begin="0.6s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.45;0" dur="2.2s" begin="0.6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="85" cy="110" r="1.4" fill="#4a8fb5" opacity="0">
+<animate attributeName="cy" values="110;165;165" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;0.4;0" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+</circle>
+<!-- Pool at bottom -->
+<ellipse cx="75" cy="178" rx="40" ry="6" fill="#4a8fb5" opacity="0.12"/>
+</g>
+<!-- Top labels -->
+<text font-family="Bebas Neue,sans-serif" font-size="9" letter-spacing="1.5" fill="#8B5E3C" x="10" y="18">WATER</text>
+<rect x="50" y="9" width="100" height="14" rx="3" fill="rgba(192,57,43,0.08)" stroke="rgba(192,57,43,0.12)" stroke-width="0.5"/>
+<text font-family="Bebas Neue,sans-serif" font-size="7.5" letter-spacing="1.2" fill="#c0392b" x="56" y="19">RESOURCE DECLINE</text>
+<!-- 71% positioned left of stream -->
+<text font-family="Bebas Neue,sans-serif" font-size="48" fill="#2d6e94" x="10" y="80" opacity="0.9">71%</text>
+<text font-family="Inter,sans-serif" font-size="8.5" font-weight="500" fill="#4a8fb5" x="10" y="96" opacity="0.7">Aquifers declining</text>
+<text font-family="Inter,sans-serif" font-size="7" fill="#4a8fb5" x="10" y="108" opacity="0.45">of 1,700 studied</text>
+<rect x="0" y="0" width="160" height="3" rx="0" fill="#c0392b" opacity="0.8"/>
+</svg>
+</div>
+
+<div class="card-wrap">
+<svg viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="smkSky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#8a7d6e"/>
+<stop offset="35%" stop-color="#9e9080"/>
+<stop offset="65%" stop-color="#b0a292"/>
+<stop offset="100%" stop-color="#c0b5a5"/>
+</linearGradient>
+<radialGradient id="cld1" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#a09080" stop-opacity="0.7"/>
+<stop offset="100%" stop-color="#a09080" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="cld2" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#b5a595" stop-opacity="0.6"/>
+<stop offset="100%" stop-color="#b5a595" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="rGlow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#c0392b" stop-opacity="0.1"/>
+<stop offset="100%" stop-color="#c0392b" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="c4"><rect width="160" height="180" rx="10"/></clipPath>
+</defs>
+<g clip-path="url(#c4)">
+<rect width="160" height="180" fill="url(#smkSky)"/>
+<!-- Smog cloud layers -->
+<ellipse cx="35" cy="40" rx="55" ry="22" fill="url(#cld1)">
+<animate attributeName="cx" values="35;42;35" dur="8s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="125" cy="32" rx="48" ry="20" fill="url(#cld2)">
+<animate attributeName="cx" values="125;118;125" dur="10s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="80" cy="58" rx="65" ry="28" fill="url(#cld1)">
+<animate attributeName="cx" values="80;85;80" dur="7s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="40" cy="82" rx="50" ry="18" fill="url(#cld2)">
+<animate attributeName="cx" values="40;35;40" dur="9s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="130" cy="75" rx="45" ry="16" fill="url(#cld1)">
+<animate attributeName="cx" values="130;135;130" dur="11s" repeatCount="indefinite"/>
+</ellipse>
+<!-- Red danger glow -->
+<ellipse cx="80" cy="85" rx="65" ry="35" fill="url(#rGlow)"/>
+<!-- Lower haze -->
+<ellipse cx="70" cy="115" rx="70" ry="15" fill="url(#cld2)" opacity="0.4">
+<animate attributeName="cx" values="70;78;70" dur="12s" repeatCount="indefinite"/>
+</ellipse>
+<!-- City/industry silhouette -->
+<path d="M0 145 L12 145 L12 132 L18 132 L18 140 L28 140 L28 128 L33 128 L33 142 L42 142 L42 135 L46 135 L46 120 L50 120 L50 135 L58 135 L58 142 L68 142 L68 132 L72 125 L76 132 L76 142 L86 142 L86 136 L90 136 L90 128 L94 128 L94 142 L104 142 L104 135 L108 118 L112 135 L112 142 L120 142 L120 132 L126 132 L126 140 L135 140 L135 134 L142 134 L142 142 L152 142 L152 145 L160 145 L160 180 L0 180Z" fill="#4a3d30" opacity="0.5"/>
+<rect x="0" y="150" width="160" height="30" fill="#3d3228" opacity="0.55"/>
+<!-- Smokestacks -->
+<rect x="45" y="120" width="3" height="20" fill="#5a4a3a" opacity="0.5"/>
+<rect x="107" y="118" width="3" height="17" fill="#5a4a3a" opacity="0.5"/>
+<circle cx="46" cy="118" r="3" fill="#8a7a68" opacity="0">
+<animate attributeName="cy" values="118;95;70" dur="4s" repeatCount="indefinite"/>
+<animate attributeName="r" values="3;6;10" dur="4s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.3;0.15;0" dur="4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="109" cy="116" r="2.5" fill="#8a7a68" opacity="0">
+<animate attributeName="cy" values="116;90;65" dur="5s" begin="1s" repeatCount="indefinite"/>
+<animate attributeName="r" values="2.5;5;9" dur="5s" begin="1s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.25;0.12;0" dur="5s" begin="1s" repeatCount="indefinite"/>
+</circle>
+</g>
+<!-- Top labels -->
+<text font-family="Bebas Neue,sans-serif" font-size="9" letter-spacing="1.5" fill="#f5f4ee" x="10" y="18" opacity="0.7">CLIMATE</text>
+<rect x="58" y="9" width="78" height="14" rx="3" fill="rgba(192,57,43,0.15)" stroke="rgba(192,57,43,0.2)" stroke-width="0.5"/>
+<text font-family="Bebas Neue,sans-serif" font-size="7.5" letter-spacing="1.2" fill="#c0392b" x="64" y="19">RECORD LOSSES</text>
+<!-- $320B floating in smog -->
+<text font-family="Bebas Neue,sans-serif" font-size="44" fill="#f5f4ee" x="80" y="90" text-anchor="middle" opacity="0.95">$320B</text>
+<!-- Descriptors in the haze -->
+<text font-family="Inter,sans-serif" font-size="8.5" font-weight="500" fill="#f5f4ee" x="80" y="108" text-anchor="middle" opacity="0.55">Climate disaster losses</text>
+<text font-family="Inter,sans-serif" font-size="7" fill="#f5f4ee" x="80" y="120" text-anchor="middle" opacity="0.38">2024 global record (Munich Re)</text>
+<rect x="0" y="0" width="160" height="3" rx="0" fill="#c0392b" opacity="0.8"/>
+</svg>
+</div>
+
+</div>

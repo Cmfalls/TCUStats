@@ -1,0 +1,402 @@
+[2m7:33:59 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\falls\Desktop\TCU\pillar1-carbon-pools.jsx: Unexpected character '“'. (26:14)
+
+[0m [90m 24 |[31m
+ [90m 25 |[31m [36mconst[31m [33mSEQUESTRATION[31m [33m=[31m [
+[31m[1m>[22m[31m[90m 26 |[31m   { practice[33m:[31m “Compost (rangeland)”[33m,[31m rate[33m:[31m [35m1.0[31m[33m,[31m range[33m:[31m “0[35m.8[31mâ€”1[35m.2[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m2[31mf5202”[33m,[31m desc[33m:[31m “Applied compost feeds microbes[33m;[31m microbes build stable carbon aggregates”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcompost[33m.[31mjpg” }[33m,[31m
+ [90m    |[31m               [31m[1m^[22m[31m
+ [90m 27 |[31m   { practice[33m:[31m “Cover cropping”[33m,[31m rate[33m:[31m [35m0.56[31m[33m,[31m range[33m:[31m “0[35m.32[31mâ€”0[35m.88[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m3[31md6a10”[33m,[31m desc[33m:[31m “Living roots deposit carbon year[33m-[31mround via exudates and necromass”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcover[33m-[31mcrop[33m.[31mjpg” }[33m,[31m
+ [90m 28 |[31m   { practice[33m:[31m “AMP grazing”[33m,[31m rate[33m:[31m [35m0.50[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”2[35m.29[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m4[31md821a”[33m,[31m desc[33m:[31m “Adaptive multi[33m-[31mpaddock grazing mimics bison herds[33m;[31m restores root density”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mamp[33m-[31mgrazing[33m.[31mjpg” }[33m,[31m
+ [90m 29 |[31m   { practice[33m:[31m “Organic systems”[33m,[31m rate[33m:[31m [35m0.45[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”0[35m.6[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m5[31ma8f22”[33m,[31m desc[33m:[31m “Eliminates synthetic inputs that disrupt fungal networks[33m;[31m biological carbon cycling”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31morganic[33m.[31mjpg” }[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/falls/Desktop/TCU/pillar1-carbon-pools.jsx[39m:26:14
+[33m  24 |  
+  25 |  const SEQUESTRATION = [
+  26 |    { practice: “Compost (rangeland)”, rate: 1.0, range: “0.8â€”1.2”, color: “#2f5202”, desc: “Applied compost feeds microbes; microbes build stable carbon aggregates”, img: “/practice-compost.jpg” },
+     |                                         ^
+  27 |    { practice: “Cover cropping”, rate: 0.56, range: “0.32â€”0.88”, color: “#3d6a10”, desc: “Living roots deposit carbon year-round via exudates and necromass”, img: “/practice-cover-crop.jpg” },
+  28 |    { practice: “AMP grazing”, rate: 0.50, range: “0.3â€”2.29”, color: “#4d821a”, desc: “Adaptive multi-paddock grazing mimics bison herds; restores root density”, img: “/practice-amp-grazing.jpg” },[39m
+      at constructor (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6599:19)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6306:16)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4797:11)
+      at JSXParserMixin.nextToken (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5782:10)
+      at JSXParserMixin.next (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5692:10)
+      at JSXParserMixin.eat (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5696:12)
+      at JSXParserMixin.parseObjectProperty (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11949:14)
+      at JSXParserMixin.parseObjPropValue (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11978:100)
+      at JSXParserMixin.parsePropertyDefinition (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11915:17)
+      at JSXParserMixin.parseObjectLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11832:21)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11339:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12493:17)
+      at JSXParserMixin.parseExprListItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12175:18)
+      at JSXParserMixin.parseExprList (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12150:22)
+      at JSXParserMixin.parseArrayLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12057:26)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseVar (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseProgram (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12612:25)
+      at JSXParserMixin.parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14488:25)
+      at parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14522:38)
+[2m7:34:06 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\falls\Desktop\TCU\pillar1-carbon-pools.jsx: Unexpected character '“'. (26:14)
+
+[0m [90m 24 |[31m
+ [90m 25 |[31m [36mconst[31m [33mSEQUESTRATION[31m [33m=[31m [
+[31m[1m>[22m[31m[90m 26 |[31m   { practice[33m:[31m “Compost (rangeland)”[33m,[31m rate[33m:[31m [35m1.0[31m[33m,[31m range[33m:[31m “0[35m.8[31mâ€”1[35m.2[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m2[31mf5202”[33m,[31m desc[33m:[31m “Applied compost feeds microbes[33m;[31m microbes build stable carbon aggregates”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcompost[33m.[31mjpg” }[33m,[31m
+ [90m    |[31m               [31m[1m^[22m[31m
+ [90m 27 |[31m   { practice[33m:[31m “Cover cropping”[33m,[31m rate[33m:[31m [35m0.56[31m[33m,[31m range[33m:[31m “0[35m.32[31mâ€”0[35m.88[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m3[31md6a10”[33m,[31m desc[33m:[31m “Living roots deposit carbon year[33m-[31mround via exudates and necromass”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcover[33m-[31mcrop[33m.[31mjpg” }[33m,[31m
+ [90m 28 |[31m   { practice[33m:[31m “AMP grazing”[33m,[31m rate[33m:[31m [35m0.50[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”2[35m.29[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m4[31md821a”[33m,[31m desc[33m:[31m “Adaptive multi[33m-[31mpaddock grazing mimics bison herds[33m;[31m restores root density”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mamp[33m-[31mgrazing[33m.[31mjpg” }[33m,[31m
+ [90m 29 |[31m   { practice[33m:[31m “Organic systems”[33m,[31m rate[33m:[31m [35m0.45[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”0[35m.6[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m5[31ma8f22”[33m,[31m desc[33m:[31m “Eliminates synthetic inputs that disrupt fungal networks[33m;[31m biological carbon cycling”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31morganic[33m.[31mjpg” }[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/falls/Desktop/TCU/pillar1-carbon-pools.jsx[39m:26:14
+[33m  24 |  
+  25 |  const SEQUESTRATION = [
+  26 |    { practice: “Compost (rangeland)”, rate: 1.0, range: “0.8â€”1.2”, color: “#2f5202”, desc: “Applied compost feeds microbes; microbes build stable carbon aggregates”, img: “/practice-compost.jpg” },
+     |                                         ^
+  27 |    { practice: “Cover cropping”, rate: 0.56, range: “0.32â€”0.88”, color: “#3d6a10”, desc: “Living roots deposit carbon year-round via exudates and necromass”, img: “/practice-cover-crop.jpg” },
+  28 |    { practice: “AMP grazing”, rate: 0.50, range: “0.3â€”2.29”, color: “#4d821a”, desc: “Adaptive multi-paddock grazing mimics bison herds; restores root density”, img: “/practice-amp-grazing.jpg” },[39m
+      at constructor (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6599:19)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6306:16)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4797:11)
+      at JSXParserMixin.nextToken (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5782:10)
+      at JSXParserMixin.next (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5692:10)
+      at JSXParserMixin.eat (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5696:12)
+      at JSXParserMixin.parseObjectProperty (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11949:14)
+      at JSXParserMixin.parseObjPropValue (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11978:100)
+      at JSXParserMixin.parsePropertyDefinition (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11915:17)
+      at JSXParserMixin.parseObjectLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11832:21)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11339:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12493:17)
+      at JSXParserMixin.parseExprListItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12175:18)
+      at JSXParserMixin.parseExprList (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12150:22)
+      at JSXParserMixin.parseArrayLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12057:26)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseVar (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseProgram (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12612:25)
+      at JSXParserMixin.parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14488:25)
+      at parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14522:38)
+[2m7:34:15 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\falls\Desktop\TCU\pillar1-carbon-pools.jsx: Unexpected character '“'. (26:14)
+
+[0m [90m 24 |[31m
+ [90m 25 |[31m [36mconst[31m [33mSEQUESTRATION[31m [33m=[31m [
+[31m[1m>[22m[31m[90m 26 |[31m   { practice[33m:[31m “Compost (rangeland)”[33m,[31m rate[33m:[31m [35m1.0[31m[33m,[31m range[33m:[31m “0[35m.8[31mâ€”1[35m.2[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m2[31mf5202”[33m,[31m desc[33m:[31m “Applied compost feeds microbes[33m;[31m microbes build stable carbon aggregates”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcompost[33m.[31mjpg” }[33m,[31m
+ [90m    |[31m               [31m[1m^[22m[31m
+ [90m 27 |[31m   { practice[33m:[31m “Cover cropping”[33m,[31m rate[33m:[31m [35m0.56[31m[33m,[31m range[33m:[31m “0[35m.32[31mâ€”0[35m.88[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m3[31md6a10”[33m,[31m desc[33m:[31m “Living roots deposit carbon year[33m-[31mround via exudates and necromass”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcover[33m-[31mcrop[33m.[31mjpg” }[33m,[31m
+ [90m 28 |[31m   { practice[33m:[31m “AMP grazing”[33m,[31m rate[33m:[31m [35m0.50[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”2[35m.29[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m4[31md821a”[33m,[31m desc[33m:[31m “Adaptive multi[33m-[31mpaddock grazing mimics bison herds[33m;[31m restores root density”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mamp[33m-[31mgrazing[33m.[31mjpg” }[33m,[31m
+ [90m 29 |[31m   { practice[33m:[31m “Organic systems”[33m,[31m rate[33m:[31m [35m0.45[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”0[35m.6[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m5[31ma8f22”[33m,[31m desc[33m:[31m “Eliminates synthetic inputs that disrupt fungal networks[33m;[31m biological carbon cycling”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31morganic[33m.[31mjpg” }[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/falls/Desktop/TCU/pillar1-carbon-pools.jsx[39m:26:14
+[33m  24 |  
+  25 |  const SEQUESTRATION = [
+  26 |    { practice: “Compost (rangeland)”, rate: 1.0, range: “0.8â€”1.2”, color: “#2f5202”, desc: “Applied compost feeds microbes; microbes build stable carbon aggregates”, img: “/practice-compost.jpg” },
+     |                                         ^
+  27 |    { practice: “Cover cropping”, rate: 0.56, range: “0.32â€”0.88”, color: “#3d6a10”, desc: “Living roots deposit carbon year-round via exudates and necromass”, img: “/practice-cover-crop.jpg” },
+  28 |    { practice: “AMP grazing”, rate: 0.50, range: “0.3â€”2.29”, color: “#4d821a”, desc: “Adaptive multi-paddock grazing mimics bison herds; restores root density”, img: “/practice-amp-grazing.jpg” },[39m
+      at constructor (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6599:19)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6306:16)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4797:11)
+      at JSXParserMixin.nextToken (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5782:10)
+      at JSXParserMixin.next (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5692:10)
+      at JSXParserMixin.eat (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5696:12)
+      at JSXParserMixin.parseObjectProperty (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11949:14)
+      at JSXParserMixin.parseObjPropValue (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11978:100)
+      at JSXParserMixin.parsePropertyDefinition (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11915:17)
+      at JSXParserMixin.parseObjectLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11832:21)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11339:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12493:17)
+      at JSXParserMixin.parseExprListItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12175:18)
+      at JSXParserMixin.parseExprList (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12150:22)
+      at JSXParserMixin.parseArrayLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12057:26)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseVar (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseProgram (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12612:25)
+      at JSXParserMixin.parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14488:25)
+      at parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14522:38)
+[2m7:34:26 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\falls\Desktop\TCU\pillar1-carbon-pools.jsx: Unexpected character '“'. (26:14)
+
+[0m [90m 24 |[31m
+ [90m 25 |[31m [36mconst[31m [33mSEQUESTRATION[31m [33m=[31m [
+[31m[1m>[22m[31m[90m 26 |[31m   { practice[33m:[31m “Compost (rangeland)”[33m,[31m rate[33m:[31m [35m1.0[31m[33m,[31m range[33m:[31m “0[35m.8[31mâ€”1[35m.2[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m2[31mf5202”[33m,[31m desc[33m:[31m “Applied compost feeds microbes[33m;[31m microbes build stable carbon aggregates”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcompost[33m.[31mjpg” }[33m,[31m
+ [90m    |[31m               [31m[1m^[22m[31m
+ [90m 27 |[31m   { practice[33m:[31m “Cover cropping”[33m,[31m rate[33m:[31m [35m0.56[31m[33m,[31m range[33m:[31m “0[35m.32[31mâ€”0[35m.88[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m3[31md6a10”[33m,[31m desc[33m:[31m “Living roots deposit carbon year[33m-[31mround via exudates and necromass”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcover[33m-[31mcrop[33m.[31mjpg” }[33m,[31m
+ [90m 28 |[31m   { practice[33m:[31m “AMP grazing”[33m,[31m rate[33m:[31m [35m0.50[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”2[35m.29[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m4[31md821a”[33m,[31m desc[33m:[31m “Adaptive multi[33m-[31mpaddock grazing mimics bison herds[33m;[31m restores root density”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mamp[33m-[31mgrazing[33m.[31mjpg” }[33m,[31m
+ [90m 29 |[31m   { practice[33m:[31m “Organic systems”[33m,[31m rate[33m:[31m [35m0.45[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”0[35m.6[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m5[31ma8f22”[33m,[31m desc[33m:[31m “Eliminates synthetic inputs that disrupt fungal networks[33m;[31m biological carbon cycling”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31morganic[33m.[31mjpg” }[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/falls/Desktop/TCU/pillar1-carbon-pools.jsx[39m:26:14
+[33m  24 |  
+  25 |  const SEQUESTRATION = [
+  26 |    { practice: “Compost (rangeland)”, rate: 1.0, range: “0.8â€”1.2”, color: “#2f5202”, desc: “Applied compost feeds microbes; microbes build stable carbon aggregates”, img: “/practice-compost.jpg” },
+     |                                         ^
+  27 |    { practice: “Cover cropping”, rate: 0.56, range: “0.32â€”0.88”, color: “#3d6a10”, desc: “Living roots deposit carbon year-round via exudates and necromass”, img: “/practice-cover-crop.jpg” },
+  28 |    { practice: “AMP grazing”, rate: 0.50, range: “0.3â€”2.29”, color: “#4d821a”, desc: “Adaptive multi-paddock grazing mimics bison herds; restores root density”, img: “/practice-amp-grazing.jpg” },[39m
+      at constructor (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6599:19)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6306:16)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4797:11)
+      at JSXParserMixin.nextToken (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5782:10)
+      at JSXParserMixin.next (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5692:10)
+      at JSXParserMixin.eat (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5696:12)
+      at JSXParserMixin.parseObjectProperty (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11949:14)
+      at JSXParserMixin.parseObjPropValue (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11978:100)
+      at JSXParserMixin.parsePropertyDefinition (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11915:17)
+      at JSXParserMixin.parseObjectLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11832:21)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11339:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12493:17)
+      at JSXParserMixin.parseExprListItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12175:18)
+      at JSXParserMixin.parseExprList (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12150:22)
+      at JSXParserMixin.parseArrayLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12057:26)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseVar (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseProgram (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12612:25)
+      at JSXParserMixin.parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14488:25)
+      at parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14522:38)
+[2m7:34:33 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\falls\Desktop\TCU\pillar1-carbon-pools.jsx: Unexpected character '“'. (26:14)
+
+[0m [90m 24 |[31m
+ [90m 25 |[31m [36mconst[31m [33mSEQUESTRATION[31m [33m=[31m [
+[31m[1m>[22m[31m[90m 26 |[31m   { practice[33m:[31m “Compost (rangeland)”[33m,[31m rate[33m:[31m [35m1.0[31m[33m,[31m range[33m:[31m “0[35m.8[31mâ€”1[35m.2[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m2[31mf5202”[33m,[31m desc[33m:[31m “Applied compost feeds microbes[33m;[31m microbes build stable carbon aggregates”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcompost[33m.[31mjpg” }[33m,[31m
+ [90m    |[31m               [31m[1m^[22m[31m
+ [90m 27 |[31m   { practice[33m:[31m “Cover cropping”[33m,[31m rate[33m:[31m [35m0.56[31m[33m,[31m range[33m:[31m “0[35m.32[31mâ€”0[35m.88[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m3[31md6a10”[33m,[31m desc[33m:[31m “Living roots deposit carbon year[33m-[31mround via exudates and necromass”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcover[33m-[31mcrop[33m.[31mjpg” }[33m,[31m
+ [90m 28 |[31m   { practice[33m:[31m “AMP grazing”[33m,[31m rate[33m:[31m [35m0.50[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”2[35m.29[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m4[31md821a”[33m,[31m desc[33m:[31m “Adaptive multi[33m-[31mpaddock grazing mimics bison herds[33m;[31m restores root density”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mamp[33m-[31mgrazing[33m.[31mjpg” }[33m,[31m
+ [90m 29 |[31m   { practice[33m:[31m “Organic systems”[33m,[31m rate[33m:[31m [35m0.45[31m[33m,[31m range[33m:[31m “0[35m.3[31mâ€”0[35m.6[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m5[31ma8f22”[33m,[31m desc[33m:[31m “Eliminates synthetic inputs that disrupt fungal networks[33m;[31m biological carbon cycling”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31morganic[33m.[31mjpg” }[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/falls/Desktop/TCU/pillar1-carbon-pools.jsx[39m:26:14
+[33m  24 |  
+  25 |  const SEQUESTRATION = [
+  26 |    { practice: “Compost (rangeland)”, rate: 1.0, range: “0.8â€”1.2”, color: “#2f5202”, desc: “Applied compost feeds microbes; microbes build stable carbon aggregates”, img: “/practice-compost.jpg” },
+     |                                         ^
+  27 |    { practice: “Cover cropping”, rate: 0.56, range: “0.32â€”0.88”, color: “#3d6a10”, desc: “Living roots deposit carbon year-round via exudates and necromass”, img: “/practice-cover-crop.jpg” },
+  28 |    { practice: “AMP grazing”, rate: 0.50, range: “0.3â€”2.29”, color: “#4d821a”, desc: “Adaptive multi-paddock grazing mimics bison herds; restores root density”, img: “/practice-amp-grazing.jpg” },[39m
+      at constructor (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6599:19)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6306:16)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4797:11)
+      at JSXParserMixin.nextToken (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5782:10)
+      at JSXParserMixin.next (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5692:10)
+      at JSXParserMixin.eat (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5696:12)
+      at JSXParserMixin.parseObjectProperty (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11949:14)
+      at JSXParserMixin.parseObjPropValue (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11978:100)
+      at JSXParserMixin.parsePropertyDefinition (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11915:17)
+      at JSXParserMixin.parseObjectLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11832:21)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11339:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12493:17)
+      at JSXParserMixin.parseExprListItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12175:18)
+      at JSXParserMixin.parseExprList (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12150:22)
+      at JSXParserMixin.parseArrayLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12057:26)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseVar (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseProgram (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12612:25)
+      at JSXParserMixin.parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14488:25)
+      at parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14522:38)
+[2m7:59:01 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\falls\Desktop\TCU\pillar1-carbon-pools.jsx: Unexpected character '“'. (26:14)
+
+[0m [90m 24 |[31m
+ [90m 25 |[31m [36mconst[31m [33mSEQUESTRATION[31m [33m=[31m [
+[31m[1m>[22m[31m[90m 26 |[31m   { practice[33m:[31m “Compost (rangeland)”[33m,[31m rate[33m:[31m [35m1.0[31m[33m,[31m range[33m:[31m “0[35m.8[31m\u20131[35m.2[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m2[31mf5202”[33m,[31m desc[33m:[31m “Applied compost feeds microbes[33m;[31m microbes build stable carbon aggregates”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcompost[33m.[31mjpg” }[33m,[31m
+ [90m    |[31m               [31m[1m^[22m[31m
+ [90m 27 |[31m   { practice[33m:[31m “Cover cropping”[33m,[31m rate[33m:[31m [35m0.56[31m[33m,[31m range[33m:[31m “0[35m.32[31m\u20130[35m.88[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m3[31md6a10”[33m,[31m desc[33m:[31m “Living roots deposit carbon year[33m-[31mround via exudates and necromass”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mcover[33m-[31mcrop[33m.[31mjpg” }[33m,[31m
+ [90m 28 |[31m   { practice[33m:[31m “AMP grazing”[33m,[31m rate[33m:[31m [35m0.50[31m[33m,[31m range[33m:[31m “0[35m.3[31m\u20132[35m.29[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m4[31md821a”[33m,[31m desc[33m:[31m “Adaptive multi[33m-[31mpaddock grazing mimics bison herds[33m;[31m restores root density”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31mamp[33m-[31mgrazing[33m.[31mjpg” }[33m,[31m
+ [90m 29 |[31m   { practice[33m:[31m “Organic systems”[33m,[31m rate[33m:[31m [35m0.45[31m[33m,[31m range[33m:[31m “0[35m.3[31m\u20130[35m.6[31m”[33m,[31m color[33m:[31m “[33m#[31m[35m5[31ma8f22”[33m,[31m desc[33m:[31m “Eliminates synthetic inputs that disrupt fungal networks[33m;[31m biological carbon cycling”[33m,[31m img[33m:[31m “[33m/[31mpractice[33m-[31morganic[33m.[31mjpg” }[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/falls/Desktop/TCU/pillar1-carbon-pools.jsx[39m:26:14
+[33m  24 |  
+  25 |  const SEQUESTRATION = [
+  26 |    { practice: “Compost (rangeland)”, rate: 1.0, range: “0.8\u20131.2”, color: “#2f5202”, desc: “Applied compost feeds microbes; microbes build stable carbon aggregates”, img: “/practice-compost.jpg” },
+     |                                         ^
+  27 |    { practice: “Cover cropping”, rate: 0.56, range: “0.32\u20130.88”, color: “#3d6a10”, desc: “Living roots deposit carbon year-round via exudates and necromass”, img: “/practice-cover-crop.jpg” },
+  28 |    { practice: “AMP grazing”, rate: 0.50, range: “0.3\u20132.29”, color: “#4d821a”, desc: “Adaptive multi-paddock grazing mimics bison herds; restores root density”, img: “/practice-amp-grazing.jpg” },[39m
+      at constructor (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6599:19)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:6306:16)
+      at JSXParserMixin.getTokenFromCode (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4797:11)
+      at JSXParserMixin.nextToken (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5782:10)
+      at JSXParserMixin.next (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5692:10)
+      at JSXParserMixin.eat (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:5696:12)
+      at JSXParserMixin.parseObjectProperty (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11949:14)
+      at JSXParserMixin.parseObjPropValue (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11978:100)
+      at JSXParserMixin.parsePropertyDefinition (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11915:17)
+      at JSXParserMixin.parseObjectLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11832:21)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11339:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12493:17)
+      at JSXParserMixin.parseExprListItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12175:18)
+      at JSXParserMixin.parseExprList (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12150:22)
+      at JSXParserMixin.parseArrayLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12057:26)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11335:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12421:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseVar (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13384:91)
+      at JSXParserMixin.parseVarStatement (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13230:10)
+      at JSXParserMixin.parseStatementContent (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12851:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseProgram (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:12612:25)
+      at JSXParserMixin.parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14488:25)
+      at parse (C:\Users\falls\Desktop\TCU\node_modules\@babel\parser\lib\index.js:14522:38)

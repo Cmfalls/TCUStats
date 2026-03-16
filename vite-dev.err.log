@@ -1,0 +1,30 @@
+[2m1:33:13 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mThe character ">" is not valid inside a JSX element[33m
+1137|                    marginBottom: 12
+1138|                  }}>
+1139|                    Carbon depletion -> economic drag -> water decline -> climate losses
+   |                                      ^
+1140|                  </div>
+1141|                  <div style={{
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/falls/Desktop/TCU/unified-three-pillars.jsx[39m
+[2m1:33:13 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mThe character ">" is not valid inside a JSX element[33m
+1137|                    marginBottom: 12
+1138|                  }}>
+1139|                    Carbon depletion -> economic drag -> water decline -> climate losses
+   |                                                       ^
+1140|                  </div>
+1141|                  <div style={{
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/falls/Desktop/TCU/unified-three-pillars.jsx[39m
+[2m1:33:13 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mThe character ">" is not valid inside a JSX element[33m
+1137|                    marginBottom: 12
+1138|                  }}>
+1139|                    Carbon depletion -> economic drag -> water decline -> climate losses
+   |                                                                        ^
+1140|                  </div>
+1141|                  <div style={{
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/falls/Desktop/TCU/unified-three-pillars.jsx[39m

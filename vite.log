@@ -1,0 +1,37 @@
+Port 3000 is in use, trying another one...
+
+  [32m[1mVITE[22m v6.4.1[39m  [2mready in [0m[1m2954[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3001[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m6:30:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m6:34:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar2-economics.jsx[22m
+[2m6:37:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar3-water-security.jsx[22m
+[2m6:40:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/unified-three-pillars.jsx[22m
+[2m7:09:39 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:31:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:31:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:33:03 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:34:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:34:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:34:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:40:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:43:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:43:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:45:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:46:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:47:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:48:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:48:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m7:49:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m8:01:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/pillar1-carbon-pools.jsx[22m
+[2m8:01:39 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate key "transition" in object literal[33m
+242|              background: hovered === i ? `${seg.color}12` : "transparent",
+243|              border: `1px solid ${hovered === i ? seg.color + "40" : "transparent"}`,
+244|              transition: `all 0.2s ease, opacity 0.5s ease ${i * 120 + 300}ms`
+   |              ^
+245|            }}
+246|            onMouseEnter={() => setHovered(i)}
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/falls/Desktop/TCU/pillar1-carbon-pools.jsx[39m
