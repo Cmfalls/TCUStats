@@ -1518,7 +1518,7 @@ export default function CarbonPools() {
                         {" "}<span style={{ fontSize: 12, color: "#5a5a4a" }}>Gt CO2e channeled underground each year</span>
                       </div>
                       <div style={{ fontSize: 12, color: "#6a6a5a", lineHeight: 1.65 }}>
-                        Equal to <strong style={{ color: "#5a5a4a" }}>36%</strong> of all fossil fuel emissions - moved silently through a network spanning half the Milky Way.
+                        Equal to <strong style={{ color: "#5a5a4a" }}>36%</strong> of all fossil fuel emissions - moved silently through a network stretching ~3x the Earth-Sun distance.
                       </div>
                     </div>
                   </div>
@@ -1587,7 +1587,7 @@ export default function CarbonPools() {
               <StatCard
                 value="450M km"
                 label="Mycelial network length"
-                sub="Half the diameter of the Milky Way. The Earth's original internet."
+                sub="About 3x the Earth-Sun distance. The Earth's original internet."
                 color="#6a9d2a" delay={200} watermark={false}
               />
             </div>
