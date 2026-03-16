@@ -1134,7 +1134,7 @@ export default function UnifiedViz() {
                 },
                 {
                   num: "02", title: "Economics",
-                  desc: "Regenerative farms earn 78% higher profits. SHI 100-farm study: 85% of farmers saw net gains. $1T/yr in hidden degradation costs.",
+                  desc: "Regenerative farms earn 78% higher profits. SHI 100-farm study: 85% of farmers saw net gains. $500M+/yr in excess fertilizer costs (Jang et al. 2020).",
                   stats: ["$51.60/acre corn gain (SHI)", "-41% fertilizer (Gabe Brown)", "+120% long-term ROI (BCG)"],
                   color: "#3a7010",
                 },

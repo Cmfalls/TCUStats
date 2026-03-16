@@ -997,7 +997,7 @@ function CarbonBalance() {
       }}>
         <div style={{ fontFamily: "'Bebas Neue', Arial, sans-serif", fontSize: 34, color: "#e74c3c", lineHeight: 1, whiteSpace: "nowrap", flexShrink: 0 }}>~6 GT</div>
         <div style={{ fontSize: 13, color: "#4f4f42", lineHeight: 1.6 }}>
-          net atmospheric CO2 accumulation per year (Global Carbon Budget 2024). Fossil fuels add ~10 Gt C; land and oceans absorb ~4 Gt C each. Soil management is the only mechanism capable of reversing this at scale.
+          net atmospheric CO2 accumulation per year (Global Carbon Budget 2024). Fossil fuels emit ~10 Gt C, land-use change ~1 Gt C; oceans absorb ~3 Gt C and land ~3 Gt C — leaving ~6 Gt accumulating in air. Soil management is the only mechanism capable of reversing this at scale.
         </div>
       </div>
     </div>
@@ -1166,7 +1166,7 @@ export default function CarbonPools() {
         }}>
           {[
             { label: "2,500 Gt C", sub: "in global soils" },
-            { label: "3.1x", sub: "more than atmosphere" },
+            { label: "~2.8x", sub: "more than atmosphere" },
             { label: "116 Gt C", sub: "stripped by farming" },
             { label: "13.12 Gt CO2e", sub: "moved by fungi annually" },
             { label: "42-78 Gt C", sub: "biologically recoverable" },
@@ -1255,7 +1255,7 @@ export default function CarbonPools() {
                     <div style={{
                       fontFamily: "'Bebas Neue', Arial, sans-serif",
                       fontSize: 58, color: "#5a8c1e", lineHeight: 1, marginBottom: 10,
-                    }}>3.1x</div>
+                    }}>~2.8x</div>
                     <div style={{ fontSize: 15, fontWeight: 700, color: "#1a1a12", marginBottom: 8 }}>
                       More carbon in soil than atmosphere
                     </div>
