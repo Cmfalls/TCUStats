@@ -352,7 +352,7 @@ function SOMSlider() {
   const [som, setSom] = useState(1);
   const currentStage = getCurrentSoilArtifactStage(som);
   const waterGal = som * 20000;
-  const carbonTons = som * 10;
+  const carbonTons = som * 5.8; // Van Bemmelen factor: SOC ≈ 58% of SOM weight
   const economicsValue = som >= 3 ? "+78%" : som >= 2 ? "+30%" : "+5%";
   const infiltrationRate = 100 + (som - 1) * 45;
   const microbialBiomass = 100 + (som - 1) * 30;

@@ -728,10 +728,10 @@ function ScarcityTimeline() {
     return () => obs.disconnect();
   }, []);
   const milestones = [
-    { year: 2000, pct: 28, label: "28% under stress",   color: "#8dc53a" },
-    { year: 2015, pct: 40, label: "40% under stress",   color: "#d4a017" },
-    { year: 2025, pct: 49, label: "49.5% in drought",   color: "#e67e22" },
-    { year: 2050, pct: 70, label: "5B people affected", color: "#c0392b" },
+    { year: 2016, pct: 50, label: "4B face severe scarcity ≥1 month/yr",  color: "#8dc53a" },
+    { year: 2022, pct: 65, label: "71% of 1,693 aquifer systems declining", color: "#d4a017" },
+    { year: 2024, pct: 80, label: "71% of global aquifers in net decline",  color: "#e67e22" },
+    { year: 2050, pct: 95, label: "5B people at risk (WMO projection)",      color: "#c0392b" },
   ];
   return (
     <div ref={ref} style={{ padding: "26px 24px", background: C.card, borderRadius: 14, border: `1px solid ${C.border}`, marginBottom: 20 }}>
@@ -739,7 +739,7 @@ function ScarcityTimeline() {
         Global Water Stress — Deterioration Timeline
       </div>
       <div style={{ fontSize: 13, color: C.textMuted, marginBottom: 22 }}>
-        Share of global population facing water scarcity
+        Verified benchmarks: people, aquifers, projections
       </div>
       {milestones.map((m, i) => (
         <div key={i} style={{ display: "grid", gridTemplateColumns: "48px 1fr 160px", gap: 14, alignItems: "center", marginBottom: 10 }}>
@@ -1851,7 +1851,7 @@ export default function WaterViz() {
                   <div style={{ marginTop: 20, paddingTop: 16, borderTop: `1px solid ${C.border}` }}>
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
                       {[
-                        { val: "49.5%", label: "US in drought", sub: "March 2026 (NOAA)", color: C.red },
+                        { val: "71%", label: "Aquifer systems in decline", sub: "2000–2022, Jasechko et al. 2024, Nature", color: C.red },
                         { val: "71%", label: "Aquifers dropping", sub: "of 1,700 studied", color: C.red },
                         { val: "+125%", label: "Extraction increase", sub: "40-year rise", color: "#e67e22" },
                         { val: "4B", label: "People affected", sub: "severe scarcity/yr", color: "#e67e22" },
@@ -1920,7 +1920,7 @@ export default function WaterViz() {
               <StatCard value="5B" label="People facing water scarcity by 2050 (WMO)" color={C.green} watermark="5B" delay={0} />
               <StatCard value="4B" label="Already face severe scarcity at least 1 month/year" color={C.red} watermark="4B" delay={80} />
               <StatCard value="56%" label="More food calories needed globally by 2050 (WRI)" color={C.red} watermark="56" delay={0} />
-              <StatCard value="49.5%" label="Of US in drought as of March 2026 (NOAA)" color={C.red} watermark="49" delay={80} />
+              <StatCard value="71%" label="Of global aquifer systems in decline (Jasechko et al. 2024)" color={C.red} watermark="71" delay={80} />
             </div>
 
             <InsightBox title="The Singular Connection" icon="/icons/link.webp" accent={C.green}>

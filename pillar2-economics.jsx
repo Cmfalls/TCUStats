@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 
 const BANKRUPTCY = [
   { year: "2019", filings: 595 },
-  { year: "2020", filings: 462 },
+  { year: "2020", filings: 560 },
   { year: "2021", filings: 276 },
   { year: "2022", filings: 176 },
   { year: "2023", filings: 139 },
@@ -13,10 +13,8 @@ const BANKRUPTCY = [
 ];
 
 const CROP_IMPACTS = [
-  { crop: "Maize",  loss: 24,  icon: "/icons/corn-cob.webp", color: "#c0392b" },
-  { crop: "Barley", loss: 6.4, icon: "/icons/grain.webp",    color: "#c0392b" },
   { crop: "Wheat",  loss: 5.5, icon: "/icons/wheat.webp",    color: "#c0392b" },
-  { crop: "Soy",    loss: 3.8, icon: "/icons/soy.webp",      color: "#c0392b" },
+  { crop: "Maize",  loss: 3.8, icon: "/icons/corn-cob.webp", color: "#c0392b" },
 ];
 
 const DISASTERS = [
@@ -225,7 +223,7 @@ function ROITimeline() {
     { label: "Year 1–2", title: "Transition", desc: "Input costs drop 20–40%. Soil biology begins recovering. Slight yield adjustment.", color: "#e67e22", pct: 30 },
     { label: "Year 3–5", title: "Stabilization", desc: "Carbon credits begin. Yield parity reached. Drought resilience measurable.", color: "#f4c430", pct: 62 },
     { label: "Year 5–8", title: "Profit Compounding", desc: "+$51–$118/acre net gain. Soil organic matter >3.5%. Reduced insurance claims.", color: "#6a9d2a", pct: 88 },
-    { label: "Year 10+", title: "Full Resilience", desc: "Near-zero synthetic inputs. 95% drought yield retention. Carbon income stable.", color: "#3d6a10", pct: 100 },
+    { label: "Year 10+", title: "Full Resilience", desc: "Near-zero synthetic inputs. Significantly higher drought yield retention (Rodale FST). Carbon income stable.", color: "#3d6a10", pct: 100 },
   ];
 
   return (
@@ -307,7 +305,7 @@ function RegenBuffer() {
       </div>
       <InsightBox color="#6a9d2a">
         <div style={{ fontSize: 12, color: "#6a6a5a", lineHeight: 1.65 }}>
-          In drought years, regenerative farms retain <strong style={{ color: "#1a1a12" }}>95% of normal yields</strong> vs. 33% for conventional. Healthy soil organic matter holds 20× more water per acre. This is insurance that doesn't expire.
+          In drought years, regenerative farms significantly outperform conventional. Rodale's 30-year Farming Systems Trial found organic corn yields <strong style={{ color: "#1a1a12" }}>28–34% higher than conventional</strong> during drought years. Healthy soil organic matter holds 20× more water per acre. This is insurance that doesn't expire.
         </div>
       </InsightBox>
     </div>
@@ -728,7 +726,7 @@ function DisasterTrend() {
       <div style={{ marginTop: 14 }}>
         <InsightBox color="#c0392b">
           <div style={{ fontSize: 12, color: "#2a2a1e", lineHeight: 1.7 }}>
-            Munich Re: <strong style={{ color: "#1a1a12" }}>$320B global insured losses in 2024</strong> — a record. Insurance is no longer a safety net; it is a trailing indicator of systemic soil and climate failure.
+            Munich Re: <strong style={{ color: "#1a1a12" }}>$320B in total economic losses from climate disasters in 2024</strong> — a record. Insurance is no longer a safety net; it is a trailing indicator of systemic soil and climate failure.
           </div>
         </InsightBox>
       </div>
@@ -785,7 +783,7 @@ export default function EconomicsViz() {
         }}>
           <div style={{ fontFamily: "'Bebas Neue', Arial, sans-serif", fontSize: 34, color: "#e74c3c", lineHeight: 1 }}>$320B</div>
           <div style={{ fontSize: 9, color: "#5a5a4a", letterSpacing: 1.2, marginTop: 2 }}>CLIMATE LOSSES 2024</div>
-          <div style={{ fontSize: 8, color: "#7a7a6a", marginTop: 2 }}>Munich Re record - insured only</div>
+          <div style={{ fontSize: 8, color: "#7a7a6a", marginTop: 2 }}>Munich Re record - total economic losses</div>
           <div style={{
             marginTop: 8, paddingTop: 4, borderTop: "1px solid rgba(192,57,43,0.2)",
             fontSize: 8, color: "#e74c3c", letterSpacing: 0.5,
@@ -814,14 +812,14 @@ export default function EconomicsViz() {
             <span style={{ color: "#6a9d2a" }}>of Soil</span>
           </h1>
           <p style={{ color: "rgba(255,255,255,0.9)", fontSize: 15.5, lineHeight: 1.75, marginTop: 20, maxWidth: 560 }}>
-            Regenerative farms earn <strong style={{ color: "#dce7cb" }}>78% higher profits</strong> while cutting input costs by half. Conventional agriculture faces record bankruptcies, $1T/yr in hidden costs, and $320B in annual climate disaster losses. The economic case has never been clearer.
+            Regenerative farms earn <strong style={{ color: "#dce7cb" }}>78% higher profits</strong> while cutting input costs by half. Conventional agriculture faces record bankruptcies, $500M+/yr in documented hidden fertilizer costs, and $320B in total economic climate disaster losses. The economic case has never been clearer.
           </p>
 
           {/* Key stat row */}
           <div style={{ display: "flex", gap: 12, marginTop: 24, flexWrap: "wrap" }}>
             {[
               { val: "+78%", label: "regen profits", color: "#6a9d2a" },
-              { val: "$1T+/yr", label: "hidden soil costs", color: "#e74c3c" },
+              { val: "$500M+/yr", label: "extra fertilizer costs (US corn)", color: "#e74c3c" },
               { val: "$250B", label: "McKinsey opportunity", color: "#6a9d2a" },
             ].map((s, i) => (
               <div key={i} style={{
@@ -852,8 +850,8 @@ export default function EconomicsViz() {
             { label: "+78% profits", sub: "on regen farms" },
             { label: "$250B", sub: "McKinsey projection" },
             { label: "$624.7B", sub: "US farm debt by 2026" },
-            { label: "$320B losses", sub: "global climate 2024" },
-            { label: "$1T+/yr", sub: "hidden soil costs" },
+            { label: "$320B losses", sub: "total economic, global climate 2024" },
+            { label: "$500M+/yr", sub: "hidden US corn fertilizer costs" },
           ].map((item, i) => (
             <span key={i} style={{
               display: "inline-flex", alignItems: "center", gap: 7,
@@ -979,7 +977,7 @@ export default function EconomicsViz() {
                 <SectionHeader title="Side-by-Side Comparison" sub="Regenerative vs. conventional across four key metrics." />
                 <CompareBar label="Net profit ($/acre)" regen={118} conv={66} maxVal={140} unit="$/ac" delay={0} />
                 <CompareBar label="Input costs index" regen={55} conv={100} maxVal={110} note="lower = better" delay={100} higherIsBetter={false} />
-                <CompareBar label="Drought year yields (% of normal)" regen={95} conv={33} maxVal={100} unit="%" delay={200} />
+                <CompareBar label="Drought year yield advantage (regen vs. conv)" regen={134} conv={100} maxVal={150} unit="%" delay={200} />
                 <CompareBar label="Soil organic matter (%)" regen={4.2} conv={2.1} maxVal={5} unit="%" delay={300} />
               </div>
             </FadeIn>
@@ -1029,8 +1027,8 @@ export default function EconomicsViz() {
                     </div>
                     <div>
                       <div style={{ fontFamily: "'Bebas Neue', Arial, sans-serif", fontSize: 40, color: "#c0392b", lineHeight: 1 }}>$1T+/yr</div>
-                      <div style={{ fontSize: 12, color: "#6a6a5a", lineHeight: 1.5, marginTop: 6 }}>Total US soil degradation including Gulf Dead Zone and ecosystem collapse.</div>
-                      <div style={{ fontSize: 10, color: "#7a7a6a", marginTop: 4 }}>Neff et al., CU Boulder, 2021</div>
+                      <div style={{ fontSize: 12, color: "#6a6a5a", lineHeight: 1.5, marginTop: 6 }}>Broader externality estimate including Gulf Dead Zone, water pollution, and ecosystem losses — informal extrapolation.</div>
+                      <div style={{ fontSize: 10, color: "#7a7a6a", marginTop: 4 }}>Jason Neff, CU Boulder, 2021 (press release estimate)</div>
                     </div>
                   </div>
                 </div>
@@ -1478,7 +1476,7 @@ export default function EconomicsViz() {
             <FadeIn>
               <SectionHeader
                 title="Observed Crop Yield Losses"
-                sub="Percentage decline attributed to warming over recent decades. Source: Lobell et al., 2011; Jägermeyr et al., 2021."
+                sub="Percentage decline attributed to warming trends over recent decades. Source: Lobell et al., 2011, Science."
               />
             </FadeIn>
 
@@ -1543,7 +1541,7 @@ export default function EconomicsViz() {
                     {
                       label: "Global Losses", icon: "/icons/globe.webp",
                       stat: "$320B",
-                      sub: "Total insured climate disaster losses 2024 — Munich Re record",
+                      sub: "Total economic climate disaster losses 2024 — Munich Re record",
                     },
                   ].map((item, i) => (
                     <div key={i} style={{
@@ -1634,7 +1632,7 @@ export default function EconomicsViz() {
           <div>
             <div style={{ fontSize: 9, color: "#2f5202", fontWeight: 700, letterSpacing: 2, textTransform: "uppercase", marginBottom: 12 }}>Institutional & Government</div>
             {[
-              "Munich Re 2024 Annual Report — global insured climate losses",
+              "Munich Re 2024 Annual Report — global total economic climate losses",
               "NOAA Billion-Dollar Disasters — disaster frequency data",
               "American Farm Bureau Federation — bankruptcy data",
               "US Courts Chapter 12 — farm filing statistics",
