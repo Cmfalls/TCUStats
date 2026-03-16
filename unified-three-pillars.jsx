@@ -688,7 +688,7 @@ function SOMSlider() {
 const CRISIS = [
   {
     pillar: "Carbon",
-    stat: "133 Gt C",
+    stat: "116 Gt C",
     label: "Global soil carbon lost",
     context: "since farming began",
     signal: "historic depletion",
@@ -696,9 +696,9 @@ const CRISIS = [
   },
   {
     pillar: "Economics",
-    stat: "$1T+/yr",
-    label: "US soil degradation cost",
-    context: "annual economic drag",
+    stat: "$500M+/yr",
+    label: "Extra fertilizer costs (US corn)",
+    context: "peer-reviewed lower bound",
     signal: "annual drag",
     accent: "#9c7650",
   },
@@ -1128,7 +1128,7 @@ export default function UnifiedViz() {
               {[
                 {
                   num: "01", title: "Carbon Pools",
-                  desc: "Soil stores 3.1x more carbon than the atmosphere. Mycorrhizal fungi move 13.12 Gt CO2e per year. 133 Gt C stripped since farming began.",
+                  desc: "Soil stores ~2.8x more carbon than the atmosphere. Mycorrhizal fungi move 13.12 Gt CO2e per year. 116 Gt C stripped since farming began.",
                   stats: ["2,500 Gt C in global soils", "1B bacteria / gram", "+45% SOC in 8 years (UC Davis)"],
                   color: "#8B5E3C",
                 },
