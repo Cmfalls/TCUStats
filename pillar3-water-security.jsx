@@ -1017,7 +1017,7 @@ export default function WaterViz() {
       <div style={{ position: "relative", minHeight: 400, overflow: "hidden" }}>
         <div style={{
           position: "absolute", inset: 0,
-          backgroundImage: "url(/leaf-water-closeup.jpg)",
+          backgroundImage: "url(/leaf-water-closeup.webp)",
           backgroundSize: "cover", backgroundPosition: "center 40%",
         }} />
         <div style={{
@@ -1174,7 +1174,7 @@ export default function WaterViz() {
         {activeTab === "retention" && (
           <TabTransition tabKey="retention">
             <TabIntro
-              icon="/icons/waterdrop.png"
+              icon="/icons/waterdrop.webp"
               headline="Healthy soil is a living water reservoir"
               sub="Every percentage point of organic matter transforms how land absorbs, holds, and releases water — the single most important variable in drought resilience and aquifer recharge."
               accent={C.green}
@@ -1287,7 +1287,7 @@ export default function WaterViz() {
               </div>
             </FadeIn>
 
-            <InsightBox title="The Compounding Benefit" icon="/icons/plant.png" accent={C.green}>
+            <InsightBox title="The Compounding Benefit" icon="/icons/plant.webp" accent={C.green}>
               Increasing soil organic matter by just 1% across 100 million acres of US cropland would store
               an additional <strong style={{ color: C.text }}>2 trillion gallons of water annually</strong> —
               the equivalent of filling 3 million Olympic swimming pools. This is not a future technology.
@@ -1300,7 +1300,7 @@ export default function WaterViz() {
         {activeTab === "aquifers" && (
           <TabTransition tabKey="aquifers">
             <TabIntro
-              icon="/icons/siren.png"
+              icon="/icons/siren.webp"
               headline="Underground water reserves depleted beyond recovery"
               sub="Aquifers that took thousands of years to fill are being drawn down in decades. The clay compaction that follows is permanent — not even the heaviest rains can restore what has been lost."
               accent={C.red}
@@ -1308,7 +1308,7 @@ export default function WaterViz() {
 
             <div style={{
               height: 180, borderRadius: 14, overflow: "hidden",
-              backgroundImage: "url('/Owens%20Lake.jpg')",
+              backgroundImage: "url('/Owens%20Lake.webp')",
               backgroundSize: "cover", backgroundPosition: "center 58%",
               position: "relative", marginBottom: 20,
             }}>
@@ -1329,13 +1329,13 @@ export default function WaterViz() {
 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 18, marginBottom: 22 }}>
               <EvidenceFigure
-                src="/sir20235143_fig01.png"
+                src="/sir20235143_fig01.webp"
                 label="USGS SIR 2023-5143"
                 title="Ogallala depletion is now a mapped groundwater reality"
                 caption="The requested High Plains aquifer figure gives this section a more authoritative visual anchor than a purely abstract chart."
               />
               <EvidenceFigure
-                src="/sanjoaquin_sar_2016254.png"
+                src="/sanjoaquin_sar_2016254.webp"
                 label="NASA / InSAR"
                 title="The Central Valley is visible from space as a subsidence bowl"
                 caption="This satellite-derived view makes the California problem tangible: aquifer decline is physically deforming the landscape and infrastructure."
@@ -1382,7 +1382,7 @@ export default function WaterViz() {
               <StatCard value="−1.52 ft" sub="in 2024" label="Kansas aquifer decline Jan 2024—Jan 2025 (USGS)" color={C.red} watermark="−1.52" delay={160} />
             </div>
 
-            <InsightBox title="California State Water Project Warning (May 2025)" icon="/icons/warning.png" accent={C.red}>
+            <InsightBox title="California State Water Project Warning (May 2025)" icon="/icons/warning.webp" accent={C.red}>
               Without action, State Water Project deliveries could decline{" "}
               <strong style={{ color: C.text }}>87%</strong> by 2043 — from 2.2 million acre-feet to just
               295,000. Permanent aquifer storage loss from clay compaction equals the volume of Lake Mead.
@@ -1397,7 +1397,7 @@ export default function WaterViz() {
           <TabTransition tabKey="valley">
             <div style={{
               height: 200, borderRadius: 14, overflow: "hidden",
-              backgroundImage: "url(/L8-07052024_Crop_revise.jpg)",
+              backgroundImage: "url(/L8-07052024_Crop_revise.webp)",
               backgroundSize: "cover", backgroundPosition: "center center",
               position: "relative", marginBottom: 20,
             }}>
@@ -1415,7 +1415,7 @@ export default function WaterViz() {
               </div>
             </div>
             <TabIntro
-              icon="/icons/wheat.png"
+              icon="/icons/wheat.webp"
               headline="America's food bowl approaching existential reckoning"
               sub="The Central Valley produces 25% of US food on just 1% of US farmland. Decades of groundwater overdraft have now triggered a crisis with no painless resolution."
               accent={C.red}
@@ -1432,10 +1432,10 @@ export default function WaterViz() {
                 </div>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))", gap: 14 }}>
                   {[
-                    { val: "1%",  label: "of US farmland",         icon: "/icons/map.png", sub: "1% land, outsized output" },
-                    { val: "25%", label: "of US food supply",       icon: "/icons/grain.png", sub: "1 in 4 plates" },
-                    { val: "40%", label: "of all US fruits & nuts", icon: "/icons/orange.png", sub: "almonds, pistachios, grapes" },
-                    { val: "$50B",label: "agricultural industry",   icon: "/icons/financial.png", sub: "annual economic output" },
+                    { val: "1%",  label: "of US farmland",         icon: "/icons/map.webp", sub: "1% land, outsized output" },
+                    { val: "25%", label: "of US food supply",       icon: "/icons/grain.webp", sub: "1 in 4 plates" },
+                    { val: "40%", label: "of all US fruits & nuts", icon: "/icons/orange.webp", sub: "almonds, pistachios, grapes" },
+                    { val: "$50B",label: "agricultural industry",   icon: "/icons/financial.webp", sub: "annual economic output" },
                   ].map((s, i) => (
                     <div key={i} style={{
                       textAlign: "center", padding: "18px 10px 14px",
@@ -1576,14 +1576,14 @@ export default function WaterViz() {
 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 16, marginBottom: 18 }}>
               <EvidenceFigure
-                src="/canal-subsidence-inspection.jpg"
+                src="/canal-subsidence-inspection.webp"
                 label="USGS FIELD PHOTO"
                 title="Ground-truth evidence: damaged canals and subsiding infrastructure"
                 caption="The requested aqueduct and inspection imagery works best here, where the story shifts from regional scale to visible system failure inside the Central Valley water network."
                 height={240}
               />
               <EvidenceFigure
-                src="/jpegPIA16293.jpg"
+                src="/jpegPIA16293.webp"
                 label="NASA JPL"
                 title="Satellite subsidence imagery reinforces the same warning from above"
                 caption="Pairing field photography with JPL's subsidence image turns this section from a narrative claim into a layered evidence sequence."
@@ -1591,7 +1591,7 @@ export default function WaterViz() {
               />
             </div>
 
-            <InsightBox title="Friant-Kern Canal — Infrastructure Failure at Scale" icon="/icons/construction.png" accent={C.red}>
+            <InsightBox title="Friant-Kern Canal — Infrastructure Failure at Scale" icon="/icons/construction.webp" accent={C.red}>
               Phase 1 of the Friant-Kern Canal subsidence repair:{" "}
               <strong style={{ color: C.text }}>$325 million for just 10 miles</strong> of canal —
               74% over budget. The canal lost 60% of its delivery capacity from land that sank as farmers
@@ -1604,7 +1604,7 @@ export default function WaterViz() {
         {activeTab === "sgma" && (
           <TabTransition tabKey="sgma">
             <TabIntro
-              icon="/icons/clipboard.png"
+              icon="/icons/clipboard.webp"
               headline="SGMA sets California's hard groundwater deadline for 2040"
               sub="The state must eliminate a 2 million acre-foot annual overdraft. Without major water-retention gains per acre, large permanent farmland retirement is projected."
               accent={C.green}
@@ -1720,8 +1720,8 @@ export default function WaterViz() {
                 </div>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 12, marginBottom: 18 }}>
                   {[
-                    { src: "/d5146-1.jpg", label: "Water-stressed stand" },
-                    { src: "/d5147-1.jpg", label: "Healthier cover-cropped edge" },
+                    { src: "/d5146-1.webp", label: "Water-stressed stand" },
+                    { src: "/d5147-1.webp", label: "Healthier cover-cropped edge" },
                   ].map((img, i) => (
                     <div key={i} style={{
                       borderRadius: 10,
@@ -1748,9 +1748,9 @@ export default function WaterViz() {
                 </div>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 14 }}>
                   {[
-                    { icon: "/icons/waterdrop.png", title: "Reduced irrigation demand", desc: "20,000 gal/acre/year saved per 1% SOM gain — compliance without fallowing" },
-                    { icon: "/icons/link.png", title: "Aquifer recharge", desc: "High-infiltration soils recharge groundwater rather than generating runoff" },
-                    { icon: "/icons/checklist.png", title: "SGMA compliance pathway", desc: "On-farm water retention reduces pumping without permanent land retirement" },
+                    { icon: "/icons/waterdrop.webp", title: "Reduced irrigation demand", desc: "20,000 gal/acre/year saved per 1% SOM gain — compliance without fallowing" },
+                    { icon: "/icons/link.webp", title: "Aquifer recharge", desc: "High-infiltration soils recharge groundwater rather than generating runoff" },
+                    { icon: "/icons/checklist.webp", title: "SGMA compliance pathway", desc: "On-farm water retention reduces pumping without permanent land retirement" },
                   ].map((item, i) => (
                     <div key={i} style={{
                       padding: "18px 14px", background: C.card, borderRadius: 10,
@@ -1773,7 +1773,7 @@ export default function WaterViz() {
               </div>
             </FadeIn>
 
-            <InsightBox title="The Bridge Forward" icon="/icons/plant.png" accent={C.green}>
+            <InsightBox title="The Bridge Forward" icon="/icons/plant.webp" accent={C.green}>
               Farmers transitioning to regenerative practices under SGMA compliance programs can qualify
               for groundwater banking credits, reduced pumping assessments, and transition funding.
               Every acre that improves water retention is an acre that stays productive —
@@ -1788,7 +1788,7 @@ export default function WaterViz() {
           <TabTransition tabKey="global">
             <div style={{
               height: 200, borderRadius: 14, overflow: "hidden",
-              backgroundImage: "url(/graphic_earth_from_space.jpg)",
+              backgroundImage: "url(/graphic_earth_from_space.webp)",
               backgroundSize: "cover", backgroundPosition: "center center",
               position: "relative", marginBottom: 20,
             }}>
@@ -1806,7 +1806,7 @@ export default function WaterViz() {
               </div>
             </div>
             <TabIntro
-              icon="/icons/globe.png"
+              icon="/icons/globe.webp"
               headline="A planetary water crisis converging with food demand"
               sub="Agriculture uses 70% of global freshwater. As aquifers decline and populations grow, the math of food production faces an unprecedented reckoning — with soil health as the only scalable solution."
               accent={C.green}
@@ -1828,7 +1828,7 @@ export default function WaterViz() {
                   <div style={{ fontSize: 10, letterSpacing: "0.1em", fontWeight: 700, color: "#888", marginBottom: 8, textTransform: "uppercase" }}>
                     U.S. Drought Monitor — March 12, 2026
                   </div>
-                  <img src="/u.s.-drought-monitor-03-12-2026.png" alt="U.S. Drought Monitor Map" style={{ width: "100%", borderRadius: 6, display: "block" }} />
+                  <img src="/u.s.-drought-monitor-03-12-2026.webp" alt="U.S. Drought Monitor Map" style={{ width: "100%", borderRadius: 6, display: "block" }} />
                   <div style={{ fontSize: 10, color: "#aaa", marginTop: 6 }}>
                     Source: National Drought Mitigation Center, USDA, NOAA
                   </div>
@@ -1923,7 +1923,7 @@ export default function WaterViz() {
               <StatCard value="49.5%" label="Of US in drought as of March 2026 (NOAA)" color={C.red} watermark="49" delay={80} />
             </div>
 
-            <InsightBox title="The Singular Connection" icon="/icons/link.png" accent={C.green}>
+            <InsightBox title="The Singular Connection" icon="/icons/link.webp" accent={C.green}>
               Rebuilding 1% soil organic matter simultaneously sequesters carbon, holds thousands of
               additional gallons of water per acre, reduces input costs by 40—50%, and improves drought
               resilience by 30%+. A single metric —{" "}
@@ -1984,11 +1984,11 @@ export default function WaterViz() {
         }}>
           <div>Pillar 3 · The Carbon Underground · Data current through 2025</div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <img src="/tcu-logo-black.png" alt="TCU" style={{ height: 18, opacity: 0.65 }} />
+            <img src="/tcu-logo-black.webp" alt="TCU" style={{ height: 18, opacity: 0.65 }} />
             <span style={{ color: "rgba(0,0,0,0.15)" }}>|</span>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-instagram.png" alt="Instagram" style={{ height: 14, opacity: 0.5 }} /></a>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-linkedin.png" alt="LinkedIn" style={{ height: 14, opacity: 0.5 }} /></a>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-tiktok.png" alt="TikTok" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-instagram.webp" alt="Instagram" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-linkedin.webp" alt="LinkedIn" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-tiktok.webp" alt="TikTok" style={{ height: 14, opacity: 0.5 }} /></a>
           </div>
         </div>
       </footer>

@@ -1,10 +1,10 @@
 ﻿import { useState, useEffect, useRef, useMemo } from "react";
 
 const POOLS = [
-  { label: "Oceans", value: 38400, color: "#1a6b8a", pct: 90.8, image: "/carbon-stock-ocean.png" },
-  { label: "Soils (0-2 m)", value: 2500, color: "#8B5E3C", pct: 5.9, highlight: true, image: "/carbon-stock-soil.png" },
-  { label: "Atmosphere", value: 830, color: "#6a6a5a", pct: 2.0, image: "/carbon-stock-atmosphere.png" },
-  { label: "Vegetation", value: 560, color: "#6a9d2a", pct: 1.3, image: "/carbon-stock-vegetation.png" },
+  { label: "Oceans", value: 38400, color: "#1a6b8a", pct: 90.8, image: "/carbon-stock-ocean.webp" },
+  { label: "Soils (0-2 m)", value: 2500, color: "#8B5E3C", pct: 5.9, highlight: true, image: "/carbon-stock-soil.webp" },
+  { label: "Atmosphere", value: 830, color: "#6a6a5a", pct: 2.0, image: "/carbon-stock-atmosphere.webp" },
+  { label: "Vegetation", value: 560, color: "#6a9d2a", pct: 1.3, image: "/carbon-stock-vegetation.webp" },
 ];
 
 const FLOWS = [
@@ -23,11 +23,11 @@ const DEBT_DATA = [
 ];
 
 const SEQUESTRATION = [
-  { practice: "Compost (rangeland)", rate: 1.0, range: "0.8\u20131.2", color: "#2f5202", desc: "Applied compost feeds microbes; microbes build stable carbon aggregates", img: "/practice-compost.jpg" },
-  { practice: "Cover cropping", rate: 0.56, range: "0.32\u20130.88", color: "#3d6a10", desc: "Living roots deposit carbon year-round via exudates and necromass", img: "/practice-cover-crop.jpg" },
-  { practice: "AMP grazing", rate: 0.50, range: "0.3\u20132.29", color: "#4d821a", desc: "Adaptive multi-paddock grazing mimics bison herds; restores root density", img: "/practice-amp-grazing.jpg" },
-  { practice: "Organic systems", rate: 0.45, range: "0.3\u20130.6", color: "#5a8f22", desc: "Eliminates synthetic inputs that disrupt fungal networks; biological carbon cycling", img: "/practice-organic.jpg" },
-  { practice: "No-till (long-term)", rate: 0.30, range: "0.1\u20130.5", color: "#6a9d2a", desc: "Preserves fungal hyphae and soil aggregates built over decades", img: "/practice-no-till.jpg" },
+  { practice: "Compost (rangeland)", rate: 1.0, range: "0.8\u20131.2", color: "#2f5202", desc: "Applied compost feeds microbes; microbes build stable carbon aggregates", img: "/practice-compost.webp" },
+  { practice: "Cover cropping", rate: 0.56, range: "0.32\u20130.88", color: "#3d6a10", desc: "Living roots deposit carbon year-round via exudates and necromass", img: "/practice-cover-crop.webp" },
+  { practice: "AMP grazing", rate: 0.50, range: "0.3\u20132.29", color: "#4d821a", desc: "Adaptive multi-paddock grazing mimics bison herds; restores root density", img: "/practice-amp-grazing.webp" },
+  { practice: "Organic systems", rate: 0.45, range: "0.3\u20130.6", color: "#5a8f22", desc: "Eliminates synthetic inputs that disrupt fungal networks; biological carbon cycling", img: "/practice-organic.webp" },
+  { practice: "No-till (long-term)", rate: 0.30, range: "0.1\u20130.5", color: "#6a9d2a", desc: "Preserves fungal hyphae and soil aggregates built over decades", img: "/practice-no-till.webp" },
 ];
 
 // â"€â"€â"€ Primitives â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
@@ -273,7 +273,7 @@ function SoilCrossSection() {
       {/* Photo header */}
       <div style={{ position: "relative", height: 180, overflow: "hidden" }}>
         <img
-          src="/soil-profile-cutout.jpg"
+          src="/soil-profile-cutout.webp"
           alt="Soil profile showing distinct horizons"
           style={{
             width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 20%",
@@ -374,7 +374,7 @@ function MyceliumNetwork() {
   return (
     <div ref={ref} style={{ position: "relative", borderRadius: 12, overflow: "hidden", height: 200 }}>
       <img
-        src="/mycelium-network-photo.jpg"
+        src="/mycelium-network-photo.webp"
         alt="Mycorrhizal fungal network under microscopy"
         style={{
           width: "100%", height: "100%", objectFit: "cover", objectPosition: "center",
@@ -1077,7 +1077,7 @@ export default function CarbonPools() {
       <div style={{ position: "relative", minHeight: 400, overflow: "hidden" }}>
         <div style={{
           position: "absolute", inset: 0,
-          backgroundImage: "url(/soil-hands-golden.jpg)",
+          backgroundImage: "url(/soil-hands-golden.webp)",
           backgroundSize: "cover", backgroundPosition: "center 40%",
         }} />
         {/* Layered gradient for depth */}
@@ -1499,7 +1499,7 @@ export default function CarbonPools() {
                   }}>
                     <div style={{ position: "relative", minHeight: 120 }}>
                       <img
-                        src="/mycelium-dark-nodes.jpg"
+                        src="/mycelium-dark-nodes.webp"
                         alt="Mycorrhizal network"
                         style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                       />
@@ -1546,7 +1546,7 @@ export default function CarbonPools() {
               }}>
                 <div style={{
                   position: "absolute", inset: 0,
-                  backgroundImage: "url(/mycelium-network-photo.jpg)",
+                  backgroundImage: "url(/mycelium-network-photo.webp)",
                   backgroundSize: "cover", backgroundPosition: "center",
                   opacity: 0.1,
                 }} />
@@ -1624,7 +1624,7 @@ export default function CarbonPools() {
                   {/* Root hairs photo */}
                   <div style={{ marginBottom: 20, borderRadius: 10, overflow: "hidden", height: 100, position: "relative" }}>
                     <img
-                      src="/root-hairs-soil.jpg"
+                      src="/root-hairs-soil.webp"
                       alt="Plant root hairs in soil"
                       style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", display: "block" }}
                     />
@@ -1747,12 +1747,12 @@ export default function CarbonPools() {
                 </div>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12 }}>
                   {[
-                    { tag: "WATER", icon: "/icons/water.png", title: "Water holding", desc: "Each 1% SOM increase stores 20,000 extra gallons per acre.", color: "rgba(26,106,170,0.18)" },
-                    { tag: "NPK", icon: "/icons/grain.png", title: "Nutrient cycling", desc: "Microbes mineralize nutrients, reducing synthetic fertilizer demand 40-50%.", color: "rgba(106,157,42,0.14)" },
-                    { tag: "DEFENSE", icon: "/icons/warning.png", title: "Disease suppression", desc: "Diverse microbial communities outcompete pathogens and reduce crop losses.", color: "rgba(106,157,42,0.14)" },
-                    { tag: "STRUCT", icon: "/icons/networking.png", title: "Soil structure", desc: "Fungal hyphae and glomalin bind aggregates and reduce compaction and erosion.", color: "rgba(139,94,60,0.18)" },
-                    { tag: "C-SINK", icon: "/icons/growth.png", title: "Carbon sequestration", desc: "Microbial necromass is a primary pathway for stable, long-term soil carbon.", color: "rgba(106,157,42,0.14)" },
-                    { tag: "YIELD", icon: "/icons/plant.png", title: "Yield resilience", desc: "High microbial diversity correlates with stronger drought resilience (USDA ARS).", color: "rgba(106,157,42,0.14)" },
+                    { tag: "WATER", icon: "/icons/water.webp", title: "Water holding", desc: "Each 1% SOM increase stores 20,000 extra gallons per acre.", color: "rgba(26,106,170,0.18)" },
+                    { tag: "NPK", icon: "/icons/grain.webp", title: "Nutrient cycling", desc: "Microbes mineralize nutrients, reducing synthetic fertilizer demand 40-50%.", color: "rgba(106,157,42,0.14)" },
+                    { tag: "DEFENSE", icon: "/icons/warning.webp", title: "Disease suppression", desc: "Diverse microbial communities outcompete pathogens and reduce crop losses.", color: "rgba(106,157,42,0.14)" },
+                    { tag: "STRUCT", icon: "/icons/networking.webp", title: "Soil structure", desc: "Fungal hyphae and glomalin bind aggregates and reduce compaction and erosion.", color: "rgba(139,94,60,0.18)" },
+                    { tag: "C-SINK", icon: "/icons/growth.webp", title: "Carbon sequestration", desc: "Microbial necromass is a primary pathway for stable, long-term soil carbon.", color: "rgba(106,157,42,0.14)" },
+                    { tag: "YIELD", icon: "/icons/plant.webp", title: "Yield resilience", desc: "High microbial diversity correlates with stronger drought resilience (USDA ARS).", color: "rgba(106,157,42,0.14)" },
                   ].map((item, i) => (
                     <div key={i} style={{
                       padding: "15px 14px",
@@ -1980,7 +1980,7 @@ export default function CarbonPools() {
                   {/* Before */}
                   <div style={{ position: "relative", overflow: "hidden" }}>
                     <img
-                      src="/before-after-aerial.jpg"
+                      src="/before-after-aerial.webp"
                       alt="Tilled bare soil - conventional"
                       style={{ width: "200%", height: "100%", objectFit: "cover", objectPosition: "0% center", display: "block" }}
                     />
@@ -2004,7 +2004,7 @@ export default function CarbonPools() {
                   {/* After */}
                   <div style={{ position: "relative", overflow: "hidden" }}>
                     <img
-                      src="/before-after-cover-crop.jpg"
+                      src="/before-after-cover-crop.webp"
                       alt="Living cover crop - regenerative"
                       style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "80% center", display: "block" }}
                     />
@@ -2137,7 +2137,7 @@ export default function CarbonPools() {
               }}>
                 <div style={{
                   position: "absolute", inset: 0,
-                  backgroundImage: "url(/before-after-cover-crop.jpg)",
+                  backgroundImage: "url(/before-after-cover-crop.webp)",
                   backgroundSize: "cover", backgroundPosition: "right center",
                   opacity: 0.1,
                 }} />
@@ -2233,11 +2233,11 @@ export default function CarbonPools() {
         }}>
           <div>Pillar 1 · The Carbon Underground · Data current through 2025</div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <img src="/tcu-logo-black.png" alt="TCU" style={{ height: 18, opacity: 0.65 }} />
+            <img src="/tcu-logo-black.webp" alt="TCU" style={{ height: 18, opacity: 0.65 }} />
             <span style={{ color: "rgba(0,0,0,0.15)" }}>|</span>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-instagram.png" alt="Instagram" style={{ height: 14, opacity: 0.5 }} /></a>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-linkedin.png" alt="LinkedIn" style={{ height: 14, opacity: 0.5 }} /></a>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-tiktok.png" alt="TikTok" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-instagram.webp" alt="Instagram" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-linkedin.webp" alt="LinkedIn" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-tiktok.webp" alt="TikTok" style={{ height: 14, opacity: 0.5 }} /></a>
           </div>
         </div>
       </footer>

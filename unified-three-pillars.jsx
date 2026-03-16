@@ -28,7 +28,7 @@ const SOIL_ARTIFACT_STAGES = [
     anchor: 0.5,
     min: 0.5,
     max: 1.1,
-    src: "/soil-stages/stage-1-degraded.png",
+    src: "/soil-stages/stage-1-degraded.webp",
     accent: "#b64933",
     highlights: ["Compacted surface", "Weak biology", "Fast runoff risk"],
   },
@@ -39,7 +39,7 @@ const SOIL_ARTIFACT_STAGES = [
     anchor: 2.0,
     min: 1.2,
     max: 2.0,
-    src: "/soil-stages/stage-2-typical.png",
+    src: "/soil-stages/stage-2-typical.webp",
     accent: "#8B5E3C",
     highlights: ["Thin residue cover", "Shallow roots", "Moderate holding power"],
   },
@@ -50,7 +50,7 @@ const SOIL_ARTIFACT_STAGES = [
     anchor: 3.2,
     min: 2.1,
     max: 3.2,
-    src: "/soil-stages/stage-3-recovering.png",
+    src: "/soil-stages/stage-3-recovering.webp",
     accent: "#567d22",
     highlights: ["Roots spreading", "Structure returning", "More sponge capacity"],
   },
@@ -61,7 +61,7 @@ const SOIL_ARTIFACT_STAGES = [
     anchor: 4.5,
     min: 3.3,
     max: 4.7,
-    src: "/soil-stages/stage-4-regenerative.png",
+    src: "/soil-stages/stage-4-regenerative.webp",
     accent: "#3a7010",
     highlights: ["Stable aggregates", "Active biology", "High infiltration"],
   },
@@ -72,7 +72,7 @@ const SOIL_ARTIFACT_STAGES = [
     anchor: 6.0,
     min: 4.8,
     max: 6.0,
-    src: "/soil-stages/stage-5-prairie.png",
+    src: "/soil-stages/stage-5-prairie.webp",
     accent: "#6a9d2a",
     highlights: ["Dense root web", "Carbon-rich profile", "Peak water buffering"],
   },
@@ -887,10 +887,10 @@ function CrisisBubbleGrid() {
 }
 
 const SOLUTION = [
-  { icon: "/icons/evidence-carbon-sequestered.png", stat: "0.3-1.0", unit: "Mg C/ha/yr", label: "Carbon sequestered by regenerative practices", color: C.green, iconScale: 1.04 },
-  { icon: "/icons/evidence-higher-profits.png",     stat: "+78%",    label: "Higher profits on regen farms (LaCanne & Lundgren)",   color: C.green, iconScale: 1.18 },
-  { icon: "/icons/evidence-water-infiltration.png", stat: "+59%",    label: "Water infiltration improvement from cover crops",      color: C.green, iconScale: 1.15 },
-  { icon: "/icons/evidence-carbon-moved.png",       stat: "13.12 Gt", unit: "CO2e/yr", label: "Carbon moved by mycorrhizal fungi networks", color: C.green, iconScale: 1.08 },
+  { icon: "/icons/evidence-carbon-sequestered.webp", stat: "0.3-1.0", unit: "Mg C/ha/yr", label: "Carbon sequestered by regenerative practices", color: C.green, iconScale: 1.04 },
+  { icon: "/icons/evidence-higher-profits.webp",     stat: "+78%",    label: "Higher profits on regen farms (LaCanne & Lundgren)",   color: C.green, iconScale: 1.18 },
+  { icon: "/icons/evidence-water-infiltration.webp", stat: "+59%",    label: "Water infiltration improvement from cover crops",      color: C.green, iconScale: 1.15 },
+  { icon: "/icons/evidence-carbon-moved.webp",       stat: "13.12 Gt", unit: "CO2e/yr", label: "Carbon moved by mycorrhizal fungi networks", color: C.green, iconScale: 1.08 },
 ];
 
 function SectionHeader({ title }) {
@@ -921,12 +921,12 @@ export default function UnifiedViz() {
       <div style={{ position: "relative", minHeight: 460, overflow: "hidden", display: "flex", alignItems: "flex-end" }}>
         <div style={{
           position: "absolute", inset: 0, right: "50%",
-          backgroundImage: "url(/hero-before.jpg)",
+          backgroundImage: "url(/hero-before.webp)",
           backgroundSize: "cover", backgroundPosition: "center",
         }} />
         <div style={{
           position: "absolute", inset: 0, left: "50%",
-          backgroundImage: "url(/hero-after.jpg)",
+          backgroundImage: "url(/hero-after.webp)",
           backgroundSize: "cover", backgroundPosition: "center",
         }} />
         {/* Center divider */}
@@ -1253,7 +1253,7 @@ export default function UnifiedViz() {
               margin: "0 auto 8px",
             }}>
               <img
-                src="/rodale-logo.png"
+                src="/rodale-logo.webp"
                 alt="Rodale Institute"
                 style={{ height: 68, width: "auto", display: "block", margin: "0 -24px" }}
               />
@@ -1305,7 +1305,7 @@ export default function UnifiedViz() {
           }}>
             <div style={{
               position: "absolute", inset: 0,
-              backgroundImage: "url(/hands-soil-sunlight.jpg)",
+              backgroundImage: "url(/hands-soil-sunlight.webp)",
               backgroundSize: "cover", backgroundPosition: "center",
               opacity: 0.06,
             }} />
@@ -1390,11 +1390,11 @@ export default function UnifiedViz() {
         }}>
           <div>Overview · The Carbon Underground · Data current through 2025</div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <img src="/tcu-logo-black.png" alt="TCU" style={{ height: 18, opacity: 0.65 }} />
+            <img src="/tcu-logo-black.webp" alt="TCU" style={{ height: 18, opacity: 0.65 }} />
             <span style={{ color: "rgba(0,0,0,0.15)" }}>|</span>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-instagram.png" alt="Instagram" style={{ height: 14, opacity: 0.5 }} /></a>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-linkedin.png" alt="LinkedIn" style={{ height: 14, opacity: 0.5 }} /></a>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-tiktok.png" alt="TikTok" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-instagram.webp" alt="Instagram" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-linkedin.webp" alt="LinkedIn" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-tiktok.webp" alt="TikTok" style={{ height: 14, opacity: 0.5 }} /></a>
           </div>
         </div>
       </footer>

@@ -13,10 +13,10 @@ const BANKRUPTCY = [
 ];
 
 const CROP_IMPACTS = [
-  { crop: "Maize",  loss: 24,  icon: "/icons/corn-cob.png", color: "#c0392b" },
-  { crop: "Barley", loss: 6.4, icon: "/icons/grain.png",    color: "#c0392b" },
-  { crop: "Wheat",  loss: 5.5, icon: "/icons/wheat.png",    color: "#c0392b" },
-  { crop: "Soy",    loss: 3.8, icon: "/icons/soy.png",      color: "#c0392b" },
+  { crop: "Maize",  loss: 24,  icon: "/icons/corn-cob.webp", color: "#c0392b" },
+  { crop: "Barley", loss: 6.4, icon: "/icons/grain.webp",    color: "#c0392b" },
+  { crop: "Wheat",  loss: 5.5, icon: "/icons/wheat.webp",    color: "#c0392b" },
+  { crop: "Soy",    loss: 3.8, icon: "/icons/soy.webp",      color: "#c0392b" },
 ];
 
 const DISASTERS = [
@@ -762,7 +762,7 @@ export default function EconomicsViz() {
       <div style={{ position: "relative", minHeight: 400, overflow: "hidden" }}>
         <div style={{
           position: "absolute", inset: 0,
-          backgroundImage: "url(/farmer-feature.jpeg)",
+          backgroundImage: "url(/farmer-feature.webp)",
           backgroundSize: "cover", backgroundPosition: "center 20%",
         }} />
         <div style={{
@@ -919,7 +919,7 @@ export default function EconomicsViz() {
           <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
 
             <TabIntro
-              icon="/icons/financial.png"
+              icon="/icons/financial.webp"
               headline="Regenerative farming is not just better for the planet — it's better economics"
               sub="The data from 100-farm studies, McKinsey projections, and real-farm case studies converge on one conclusion: soil health and financial health are the same thing."
             />
@@ -928,13 +928,13 @@ export default function EconomicsViz() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 14 }}>
               <StatCard value="+78%" label="Higher profits on regen farms"
                 sub="LaCanne & Lundgren, 2018 — 20 Northern Plains farms."
-                color="#6a9d2a" delay={0} icon="/icons/graph.png" />
+                color="#6a9d2a" delay={0} icon="/icons/graph.webp" />
               <StatCard value="$51.60" label="Net return per acre above cost — corn"
                 sub="SHI 100-farm study. 85% of participating farmers saw net gains."
-                color="#6a9d2a" delay={80} icon="/icons/corn-cob.png" />
+                color="#6a9d2a" delay={80} icon="/icons/corn-cob.webp" />
               <StatCard value="$44.89" label="Net return per acre — soy"
                 sub="Same SHI study. After all transition costs. Soil Health Institute, 2021."
-                color="#6a9d2a" delay={160} icon="/icons/soy.png" />
+                color="#6a9d2a" delay={160} icon="/icons/soy.webp" />
             </div>
 
             {/* SHI callout */}
@@ -1108,7 +1108,7 @@ export default function EconomicsViz() {
         {activeTab === "casestudy" && (
           <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
             <TabIntro
-              icon="/icons/checklist.png"
+              icon="/icons/checklist.webp"
               headline="These aren't pilot projects — they're scalable, documented business transformations"
               sub="Every farm below followed the same playbook: stop destroying soil biology, start rebuilding it. The financial returns followed predictably."
             />
@@ -1149,11 +1149,11 @@ export default function EconomicsViz() {
 
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 12, marginBottom: 18 }}>
                   <div style={{ borderRadius: 12, overflow: "hidden", border: "1px solid rgba(106,157,42,0.16)", background: "#f5f4ee" }}>
-                    <img src="/gabe-brown-farm.png" alt="Brown's Ranch landscape" style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }} />
+                    <img src="/gabe-brown-farm.webp" alt="Brown's Ranch landscape" style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }} />
                     <div style={{ padding: "10px 12px", fontSize: 11, color: "#6a6a5a", lineHeight: 1.5 }}>Brown's Ranch field conditions after long-term regenerative transition.</div>
                   </div>
                   <div style={{ borderRadius: 12, overflow: "hidden", border: "1px solid rgba(106,157,42,0.16)", background: "#f5f4ee" }}>
-                    <img src="/gabe-brown-portrait.jpg" alt="Gabe Brown portrait" style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }} />
+                    <img src="/gabe-brown-portrait.webp" alt="Gabe Brown portrait" style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }} />
                     <div style={{ padding: "10px 12px", fontSize: 11, color: "#6a6a5a", lineHeight: 1.5 }}>Gabe Brown, whose ranch became a flagship case study for soil-first management.</div>
                   </div>
                 </div>
@@ -1245,11 +1245,11 @@ export default function EconomicsViz() {
 
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 12, marginBottom: 18 }}>
                   <div style={{ borderRadius: 12, overflow: "hidden", border: "1px solid rgba(106,157,42,0.16)", background: "#f5f4ee" }}>
-                    <img src="/white-oak-pastures-grazing.jpg" alt="White Oak Pastures grazing scene" style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }} />
+                    <img src="/white-oak-pastures-grazing.webp" alt="White Oak Pastures grazing scene" style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }} />
                     <div style={{ padding: "10px 12px", fontSize: 11, color: "#6a6a5a", lineHeight: 1.5 }}>Adaptive multi-species grazing at White Oak Pastures.</div>
                   </div>
                   <div style={{ borderRadius: 12, overflow: "hidden", border: "1px solid rgba(106,157,42,0.16)", background: "#f5f4ee" }}>
-                    <img src="/will-harris-portrait.jpg" alt="Will Harris portrait" style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }} />
+                    <img src="/will-harris-portrait.webp" alt="Will Harris portrait" style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }} />
                     <div style={{ padding: "10px 12px", fontSize: 11, color: "#6a6a5a", lineHeight: 1.5 }}>Will Harris, whose operation became a leading regenerative ranching case study.</div>
                   </div>
                 </div>
@@ -1373,7 +1373,7 @@ export default function EconomicsViz() {
           <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
 
             <TabIntro
-              icon="/icons/siren.png"
+              icon="/icons/siren.webp"
               headline="Conventional agriculture is in financial crisis — and the numbers are accelerating"
               sub="Record bankruptcies, collapsing farm income, and billion-dollar climate disasters every 18 days. This is not a bad year. It is a broken system."
               color="#c0392b"
@@ -1389,7 +1389,7 @@ export default function EconomicsViz() {
                 gap: 22, alignItems: "center",
               }}>
                 <div style={{ textAlign: "center", minWidth: 100 }}>
-                  <img src="/icons/bankruptcy.png" alt="" style={{ width: 28, height: 28, marginBottom: 4, filter: "brightness(0) invert(1) opacity(0.55)" }} />
+                  <img src="/icons/bankruptcy.webp" alt="" style={{ width: 28, height: 28, marginBottom: 4, filter: "brightness(0) invert(1) opacity(0.55)" }} />
                   <div style={{ fontFamily: "'Bebas Neue', Arial, sans-serif", fontSize: 56, color: "#e74c3c", lineHeight: 1 }}>315</div>
                   <div style={{ fontSize: 10, color: "rgba(255,255,255,0.6)", letterSpacing: 1.5, marginTop: 2 }}>BANKRUPTCIES</div>
                   <div style={{ fontSize: 9, color: "rgba(255,255,255,0.4)" }}>2025 (YTD)</div>
@@ -1418,10 +1418,10 @@ export default function EconomicsViz() {
             {/* 4 crisis stats */}
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 14 }}>
               {[
-                { val: "$624.7B", label: "Projected total US farm debt, 2026", sub: "USDA Economic Research Service", color: "#c0392b", accent: "rgba(192,57,43,0.22)", icon: "/icons/bank.png" },
-                { val: "-40%",   label: "Net farm income drop, 2022-2024",   sub: "Even as USDA subsidy payments increased", color: "#c0392b", accent: "rgba(192,57,43,0.2)", icon: "/icons/graph.png" },
-                { val: "140,000+", label: "Farms lost 2017-2022 Census",     sub: "Consolidation accelerating - small farms disappearing", color: "#e74c3c", accent: "rgba(231,76,60,0.18)", icon: "/icons/loss.png" },
-                { val: "+73%",   label: "Farm interest expenses above 2018", sub: "High rates hitting already-leveraged operations", color: "#e74c3c", accent: "rgba(231,76,60,0.18)", icon: "/icons/bankruptcy.png" },
+                { val: "$624.7B", label: "Projected total US farm debt, 2026", sub: "USDA Economic Research Service", color: "#c0392b", accent: "rgba(192,57,43,0.22)", icon: "/icons/bank.webp" },
+                { val: "-40%",   label: "Net farm income drop, 2022-2024",   sub: "Even as USDA subsidy payments increased", color: "#c0392b", accent: "rgba(192,57,43,0.2)", icon: "/icons/graph.webp" },
+                { val: "140,000+", label: "Farms lost 2017-2022 Census",     sub: "Consolidation accelerating - small farms disappearing", color: "#e74c3c", accent: "rgba(231,76,60,0.18)", icon: "/icons/loss.webp" },
+                { val: "+73%",   label: "Farm interest expenses above 2018", sub: "High rates hitting already-leveraged operations", color: "#e74c3c", accent: "rgba(231,76,60,0.18)", icon: "/icons/bankruptcy.webp" },
               ].map((c, i) => (
                 <StatCard key={i} value={c.val} label={c.label} sub={c.sub} color={c.color} accent={c.accent} delay={i * 80} icon={c.icon} />
               ))}
@@ -1445,7 +1445,7 @@ export default function EconomicsViz() {
                 gap: 20, alignItems: "center",
               }}>
                 <IconBadge
-                  icon="/icons/plant.png"
+                  icon="/icons/plant.webp"
                   size={24}
                   padding={12}
                   bg="rgba(106,157,42,0.12)"
@@ -1470,7 +1470,7 @@ export default function EconomicsViz() {
         {activeTab === "yields" && (
           <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
             <TabIntro
-              icon="/icons/weather.png"
+              icon="/icons/weather.webp"
               headline="Climate change is already costing farmers yields — and the losses are compounding"
               sub="These are observed historical declines, not projections. Every degree of additional warming compounds each loss below."
               color="#c0392b"
@@ -1531,17 +1531,17 @@ export default function EconomicsViz() {
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16, alignItems: "stretch" }}>
                   {[
                     {
-                      label: "Cocoa", icon: "/icons/inclined-chocolate-bar.png",
+                      label: "Cocoa", icon: "/icons/inclined-chocolate-bar.webp",
                       stat: "$12,931/TON",
                       sub: "Price surge from West Africa crop failure — up from $2,500/ton",
                     },
                     {
-                      label: "Crop Variance", icon: "/icons/weather.png",
+                      label: "Crop Variance", icon: "/icons/weather.webp",
                       stat: "40%+",
                       sub: "of all yield variation driven by weather extremes (Edison Institute, 2024)",
                     },
                     {
-                      label: "Global Losses", icon: "/icons/globe.png",
+                      label: "Global Losses", icon: "/icons/globe.webp",
                       stat: "$320B",
                       sub: "Total insured climate disaster losses 2024 — Munich Re record",
                     },
@@ -1660,11 +1660,11 @@ export default function EconomicsViz() {
         }}>
           <div>Pillar 2 · The Carbon Underground · Data current through 2025</div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <img src="/tcu-logo-black.png" alt="TCU" style={{ height: 18, opacity: 0.65 }} />
+            <img src="/tcu-logo-black.webp" alt="TCU" style={{ height: 18, opacity: 0.65 }} />
             <span style={{ color: "rgba(0,0,0,0.15)" }}>|</span>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-instagram.png" alt="Instagram" style={{ height: 14, opacity: 0.5 }} /></a>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-linkedin.png" alt="LinkedIn" style={{ height: 14, opacity: 0.5 }} /></a>
-            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-tiktok.png" alt="TikTok" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-instagram.webp" alt="Instagram" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-linkedin.webp" alt="LinkedIn" style={{ height: 14, opacity: 0.5 }} /></a>
+            <a href="#" style={{ display: "inline-flex" }}><img src="/icon-tiktok.webp" alt="TikTok" style={{ height: 14, opacity: 0.5 }} /></a>
           </div>
         </div>
       </footer>
