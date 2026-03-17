@@ -435,7 +435,7 @@ function DebtChart() {
     return splitX + ((year - splitYear) / (2017 - splitYear)) * ((chartW - padR) - splitX);
   };
   const yScale = (val) => padT + plotH - (val / maxLost) * plotH;
-  const endLabelY = yScale(116) + 12;
+  const endLabelY = yScale(78);
 
   const pathD = DEBT_DATA.map((d, i) => `${i === 0 ? "M" : "L"}${xScale(d.year)},${yScale(d.lost)}`).join(" ");
   const areaD = pathD + ` L${xScale(2017)},${yScale(0)} L${xScale(-10000)},${yScale(0)} Z`;
@@ -558,6 +558,7 @@ function DebtChart() {
           {/* End point */}
           <circle cx={xScale(2017)} cy={yScale(116)} r={7} fill="#e74c3c" />
           <circle cx={xScale(2017)} cy={yScale(116)} r={14} fill="#e74c3c" opacity={0.18} />
+          <line x1={xScale(2017)} y1={yScale(116) + 8} x2={xScale(2017) - 57} y2={endLabelY} stroke="rgba(231,76,60,0.45)" strokeWidth={1} strokeDasharray="3,3" />
           <rect x={xScale(2017) - 114} y={endLabelY} width={110} height={32} rx={5} fill="rgba(255,255,255,0.97)" stroke="rgba(231,76,60,0.4)" strokeWidth={1} />
           <text x={xScale(2017) - 59} y={endLabelY + 14} textAnchor="middle" fill="#e74c3c" fontSize={14} fontFamily="'Bebas Neue', Arial, sans-serif" letterSpacing={1}>116 GT C LOST</text>
           <text x={xScale(2017) - 59} y={endLabelY + 27} textAnchor="middle" fill="#5a5a4a" fontSize={9} fontFamily="Arial, sans-serif">= 425 Gt CO2 equivalent</text>
