@@ -317,7 +317,7 @@ function RegenBuffer() {
 
 function SectionHeader({ title, sub }) {
   return (
-    <div style={{ marginBottom: 24 }}>
+    <div style={{ marginBottom: 12 }}>
       <div style={{
         background: "linear-gradient(90deg, #2f5202, #3d6a10)",
         padding: "9px 20px", display: "inline-block",
@@ -915,7 +915,7 @@ export default function EconomicsViz() {
             TAB: PROFITABILITY
         ══════════════════════════════════════════════════════════════ */}
         {activeTab === "profit" && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
 
             <TabIntro
               icon="/icons/financial.webp"
@@ -1105,7 +1105,7 @@ export default function EconomicsViz() {
             TAB: CASE STUDIES
         ══════════════════════════════════════════════════════════════ */}
         {activeTab === "casestudy" && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
             <TabIntro
               icon="/icons/checklist.webp"
               headline="These aren't pilot projects — they're scalable, documented business transformations"
@@ -1369,7 +1369,7 @@ export default function EconomicsViz() {
             TAB: FARM FINANCIAL STRESS
         ══════════════════════════════════════════════════════════════ */}
         {activeTab === "stress" && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
 
             <TabIntro
               icon="/icons/siren.webp"
@@ -1467,7 +1467,7 @@ export default function EconomicsViz() {
             TAB: CLIMATE & YIELDS
         ══════════════════════════════════════════════════════════════ */}
         {activeTab === "yields" && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
             <TabIntro
               icon="/icons/weather.webp"
               headline="Climate change is already costing farmers yields — and the losses are compounding"

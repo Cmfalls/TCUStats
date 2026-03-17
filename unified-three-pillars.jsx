@@ -697,8 +697,8 @@ const CRISIS = [
   {
     pillar: "Economics",
     stat: "$500M+/yr",
-    label: "Extra fertilizer costs (US corn)",
-    context: "peer-reviewed lower bound",
+    label: "Annual input losses",
+    context: "US corn (Jang 2020)",
     signal: "annual drag",
     accent: "#9c7650",
   },
@@ -723,7 +723,7 @@ const CRISIS = [
 function CrisisBubble({ item }) {
   const outerTint = hexToRgba(item.accent, 0.1);
   const innerRing = hexToRgba(item.accent, 0.26);
-  const statSize = item.stat.length > 6 ? "clamp(24px, 3vw, 36px)" : "clamp(30px, 3.8vw, 44px)";
+  const statSize = item.stat.length > 5 ? "clamp(22px, 2.6vw, 32px)" : "clamp(30px, 3.8vw, 44px)";
 
   return (
     <div style={{ flexShrink: 0 }}>

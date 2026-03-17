@@ -435,7 +435,7 @@ function DebtChart() {
     return splitX + ((year - splitYear) / (2017 - splitYear)) * ((chartW - padR) - splitX);
   };
   const yScale = (val) => padT + plotH - (val / maxLost) * plotH;
-  const endLabelY = Math.max(8, yScale(116) - 24);
+  const endLabelY = yScale(116) + 12;
 
   const pathD = DEBT_DATA.map((d, i) => `${i === 0 ? "M" : "L"}${xScale(d.year)},${yScale(d.lost)}`).join(" ");
   const areaD = pathD + ` L${xScale(2017)},${yScale(0)} L${xScale(-10000)},${yScale(0)} Z`;
@@ -558,9 +558,9 @@ function DebtChart() {
           {/* End point */}
           <circle cx={xScale(2017)} cy={yScale(116)} r={7} fill="#e74c3c" />
           <circle cx={xScale(2017)} cy={yScale(116)} r={14} fill="#e74c3c" opacity={0.18} />
-          <rect x={xScale(2017) - 106} y={endLabelY} width={102} height={32} rx={5} fill="rgba(255,255,255,0.97)" stroke="rgba(231,76,60,0.4)" strokeWidth={1} />
-          <text x={xScale(2017) - 55} y={endLabelY + 14} textAnchor="middle" fill="#e74c3c" fontSize={14} fontFamily="'Bebas Neue', Arial, sans-serif" letterSpacing={1}>116 GT C LOST</text>
-          <text x={xScale(2017) - 55} y={endLabelY + 27} textAnchor="middle" fill="#5a5a4a" fontSize={9} fontFamily="Arial, sans-serif">= 425 Gt CO2 equivalent</text>
+          <rect x={xScale(2017) - 114} y={endLabelY} width={110} height={32} rx={5} fill="rgba(255,255,255,0.97)" stroke="rgba(231,76,60,0.4)" strokeWidth={1} />
+          <text x={xScale(2017) - 59} y={endLabelY + 14} textAnchor="middle" fill="#e74c3c" fontSize={14} fontFamily="'Bebas Neue', Arial, sans-serif" letterSpacing={1}>116 GT C LOST</text>
+          <text x={xScale(2017) - 59} y={endLabelY + 27} textAnchor="middle" fill="#5a5a4a" fontSize={9} fontFamily="Arial, sans-serif">= 425 Gt CO2 equivalent</text>
         </>
       )}
     </svg>
@@ -646,7 +646,7 @@ function RecoveryArc() {
         <text x={cx - r - 2} y={cy + 58} textAnchor="end" fill="#7a7a6a" fontSize={8.5} fontFamily="Arial, sans-serif">historic debt</text>
         <text x={cx + r + 2} y={cy + 58} textAnchor="start" fill="#7a7a6a" fontSize={8.5} fontFamily="Arial, sans-serif">full debt range</text>
       </svg>
-      <div style={{ fontSize: 11.5, color: "#6a6a5a", marginTop: -2, lineHeight: 1.55 }}>
+      <div style={{ fontSize: 11.5, color: "#6a6a5a", marginTop: 10, lineHeight: 1.55 }}>
         The green segment shows the independent historic loss estimate (Lal 2004, Science: 42–78 Gt C) within the corrected Sanderman 2018 total of 116 Gt C. A meaningful portion of this is biologically recoverable.
       </div>
     </div>
@@ -701,7 +701,7 @@ function StatCard({ value, label, sub, color = "#6a9d2a", delay = 0, accent, ico
 
 function SectionHeader({ title, sub, step }) {
   return (
-    <div style={{ marginBottom: 24 }}>
+    <div style={{ marginBottom: 12 }}>
       <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: sub ? 12 : 0 }}>
         {step && (
           <div style={{
@@ -1962,7 +1962,7 @@ export default function CarbonPools() {
             TAB: REBUILDING CARBON
         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */}
         {activeTab === "rebuild" && (
-          <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
 
             {/* Before / After aerial comparison */}
             <FadeIn>
