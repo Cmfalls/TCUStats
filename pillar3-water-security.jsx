@@ -973,7 +973,7 @@ const CV_SUB = [
 ];
 const INFILTRATION = [
   { practice: "Perennial systems", gain: 60, color: "#3a7010" },
-  { practice: "Cover crops",       gain: 59, color: "#4d8a1a" },
+  { practice: "Cover crops",       gain: 35, color: "#4d8a1a" },
   { practice: "No-till",           gain: 45, color: "#6a9d2a" },
 ];
 const FACT_STRIP_ITEMS = [
