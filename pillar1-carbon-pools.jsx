@@ -18,8 +18,8 @@ const DEBT_DATA = [
   { year: -4000, lost: 22 }, { year: -2000, lost: 30 }, { year: 0, lost: 35 },
   { year: 500, lost: 38 }, { year: 1000, lost: 42 }, { year: 1500, lost: 48 },
   { year: 1700, lost: 52 }, { year: 1800, lost: 60 }, { year: 1850, lost: 72 },
-  { year: 1900, lost: 88 }, { year: 1950, lost: 105 }, { year: 1980, lost: 120 },
-  { year: 2000, lost: 128 }, { year: 2017, lost: 116 },
+  { year: 1900, lost: 88 }, { year: 1950, lost: 100 }, { year: 1980, lost: 108 },
+  { year: 2000, lost: 113 }, { year: 2017, lost: 116 },
 ];
 
 const SEQUESTRATION = [
