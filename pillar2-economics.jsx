@@ -278,26 +278,27 @@ function RegenBuffer() {
       <div style={{ fontSize: 10, letterSpacing: 2, textTransform: "uppercase", color: "#6a9d2a", marginBottom: 16 }}>
         The Climate Buffer — Drought Year Yield Comparison
       </div>
+      <div style={{ fontSize: 10, color: "#8a8a7a", marginBottom: 12 }}>Relative yield index — conventional = 100. Source: Rodale FST, 30-year trial.</div>
       <div style={{ marginBottom: 16 }}>
         {[
-          { label: "Regenerative", pct: 95, color: "#6a9d2a" },
-          { label: "Conventional", pct: 33, color: "#c0392b" },
+          { label: "Regenerative", barPct: 100, displayVal: "131", color: "#6a9d2a" },
+          { label: "Conventional", barPct: 76,  displayVal: "100", color: "#c0392b" },
         ].map((item, i) => (
           <div key={i} style={{ marginBottom: 10 }}>
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
               <span style={{ fontSize: 13, fontWeight: 600, color: i === 0 ? "#6a9d2a" : "#6a6a5a" }}>{item.label}</span>
-              <span style={{ fontFamily: "'Bebas Neue', Arial, sans-serif", fontSize: 22, color: item.color }}>{item.pct}%</span>
+              <span style={{ fontFamily: "'Bebas Neue', Arial, sans-serif", fontSize: 22, color: item.color }}>{item.displayVal}</span>
             </div>
             <div style={{ background: "#f5f4ee", borderRadius: 6, height: 28, overflow: "hidden", border: `1px solid ${item.color}18` }}>
               <div style={{
                 height: "100%",
-                width: vis ? `${item.pct}%` : "0%",
+                width: vis ? `${item.barPct}%` : "0%",
                 background: i === 0 ? "linear-gradient(90deg, #2f5202, #6a9d2a)" : "linear-gradient(90deg, #7a1f1f, #c0392b)",
                 borderRadius: "0 4px 4px 0",
                 transition: `width 1.3s cubic-bezier(0.22,1,0.36,1) ${i * 250}ms`,
                 display: "flex", alignItems: "center", justifyContent: "flex-end", paddingRight: 10,
               }}>
-                {vis && <span style={{ fontSize: 12, fontWeight: 700, color: "#fff" }}>of normal</span>}
+                {vis && <span style={{ fontSize: 12, fontWeight: 700, color: "#fff" }}>yield index</span>}
               </div>
             </div>
           </div>
