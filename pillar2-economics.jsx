@@ -191,7 +191,7 @@ function TabIntro({ icon, headline, sub, color = "#6a9d2a" }) {
         background: `linear-gradient(135deg, ${color}0d 0%, rgba(240,238,232,0.85) 100%)`,
         borderRadius: 12,
         border: `1px solid ${color}22`,
-        marginBottom: 28,
+        marginBottom: 4,
         display: "flex", alignItems: "center", gap: 18,
       }}>
         <IconBadge
@@ -844,8 +844,8 @@ export default function EconomicsViz() {
         borderBottom: "1px solid rgba(106,157,42,0.25)",
       }}>
         <div style={{
-          maxWidth: 1020, margin: "0 auto", padding: "8px 22px",
-          display: "flex", gap: 8, flexWrap: "wrap", justifyContent: "center",
+          maxWidth: 1020, margin: "0 auto", padding: "6px 16px",
+          display: "flex", gap: 6, flexWrap: "nowrap", justifyContent: "center", overflowX: "auto",
         }}>
           {[
             { label: "+78% profits", sub: "on regen farms" },
@@ -855,9 +855,9 @@ export default function EconomicsViz() {
             { label: "$500M+/yr", sub: "hidden US corn fertilizer costs" },
           ].map((item, i) => (
             <span key={i} style={{
-              display: "inline-flex", alignItems: "center", gap: 7,
+              display: "inline-flex", alignItems: "center", gap: 5, whiteSpace: "nowrap",
               border: "1px solid rgba(106,157,42,0.25)",
-              borderRadius: 999, padding: "4px 10px",
+              borderRadius: 999, padding: "4px 9px",
               background: "rgba(255,255,255,0.04)",
             }}>
               <span style={{ fontFamily: "'Bebas Neue', Arial, sans-serif", fontSize: 13, letterSpacing: 0.8, color: "#e3ecd2" }}>{item.label}</span>
