@@ -5,7 +5,7 @@ import EconomicsViz from "../pillar2-economics.jsx";
 import WaterViz from "../pillar3-water-security.jsx";
 
 const SECTIONS = [
-  { id: "overview", label: "Overview", sub: "One Metric", component: UnifiedViz },
+  { id: "overview", label: "Overview", sub: "", component: UnifiedViz },
   { id: "carbon",   label: "Carbon",   sub: "Pillar 1",   component: CarbonPools },
   { id: "economics",label: "Economics",sub: "Pillar 2",   component: EconomicsViz },
   { id: "water",    label: "Water",    sub: "Pillar 3",   component: WaterViz },
@@ -78,14 +78,16 @@ export default function App() {
               minWidth: 102,
             }}
           >
-            <span style={{
-              fontSize: 10, letterSpacing: 1.6, textTransform: "uppercase",
-              color: active === s.id ? "#88b850" : "#9a9d9f",
-              lineHeight: 1, marginBottom: 3,
-              transition: "color 0.2s",
-            }}>
-              {s.sub}
-            </span>
+            {s.sub ? (
+              <span style={{
+                fontSize: 10, letterSpacing: 1.6, textTransform: "uppercase",
+                color: active === s.id ? "#88b850" : "#9a9d9f",
+                lineHeight: 1, marginBottom: 3,
+                transition: "color 0.2s",
+              }}>
+                {s.sub}
+              </span>
+            ) : null}
             <span style={{
               fontFamily: "'Bebas Neue', Arial, sans-serif",
               fontSize: 24, letterSpacing: 0.5,
