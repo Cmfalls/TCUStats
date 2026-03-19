@@ -992,7 +992,6 @@ export default function UnifiedViz() {
               color: C.text,
               letterSpacing: 1,
             }}>
-              One Metric.{" "}
               <span style={{ color: C.green }}>Three Crises.</span>
               <br />One Solution.
             </h1>
